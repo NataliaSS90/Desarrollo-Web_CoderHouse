@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+/*banner*/
+
+/* font-family: "Noto Znamenny Musical Notation", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Znamenny+Musical+Notation&display=swap'); 
+/* font-family: "Bona Nova", serif; */
+
+
+/*body*/
+body{
+    background-color: rgb(123, 219, 254);
+    font-family: "Bona Nova", serif;
+}
+
+
+/*header*/
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header img{
+    width: 350px;
+}
+
+header a{   
+    color: rgb(33, 23, 150);
+    text-decoration-line: none;
+    font-weight: 600;
+}
+
+nav{
+    width: 50%;
+}
+
+header ul{
+    list-style: none;
+    text-align: right;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 90%;
+    text-shadow: -7px 8px 12px rgba(0,0,0,0.57);
+}
+
+
+.banner{
+    background-image: url(../img/carrusel_imagenes/1920x1080-px-bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*main */
+/* font-family: "Bona Nova", serif; */
+main p{
+    padding: 0px 80px;
+}
+main article{
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main h3{
+    text-align: center;
+    margin: 30px 0;
+}
+h1, h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    margin: 30px 0;
+    text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
+    color: rgb(42, 19, 15)
+}
+p{
+    color: rgb(42, 19, 15)
+}
+h3{
+    color: rgb(48, 105, 35);
+    text-decoration-line: overline;
+}
+h4{
+    padding: 0px 80px;
+}
+
+/*main index*/
+.arquitectura-emocional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 460px;
+    }
+
+.historia-y-legado{
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    margin: 30px 0;
+    text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
+}
+.hayao-miyasaki{width: 350px;}
+.isao-takahata{width: 320px;}
+.toshio-suzuki{width: 400px;}
+.legado-texto{margin-bottom: 30px;}
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*main peliculas*/
+.nausicaa img{
+    width: 100%;
+    height: 100%;
+}
+.nausicaa iframe{
+    width: 80%;
+    height: 100%;
+}
+.nausicaa{
+    display: grid;
+    grid-template-areas: 
+    "tnausicaa tnausicaa"
+    "NDVDV-3 txt1nausicaa"
+    "NDVDV-3 vnausicaa"
+    "txt2nausicaa NDVDV-4"
+    "NDVDV-11 NDVDV-4";
+    
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 70px 120px 250px 100px 300px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tnausicaa{grid-area: tnausicaa;}
+.NDVDV-3{grid-area: NDVDV-3;}
+.txt1nausicaa{grid-area: txt1nausicaa;}
+.vnausicaa{grid-area: vnausicaa;}
+.txt2nausicaa{grid-area: txt2nausicaa;}
+.NDVDV-4{grid-area: NDVDV-4;}
+.NDVDV-11{grid-area: NDVDV-11;}
+
+
+.castillo-cielo img{
+    width: 100%;
+    height: 100%;
+}
+.castillo-cielo{
+    display: grid;
+    grid-template-areas: 
+    "tcastillo-cielo tcastillo-cielo"
+    "ECEEC-0 txt1castillo-cielo"
+    "ECEEC-0 txt2castillo-cielo"
+    "vcastillo-cielo vcastillo-cielo"
+    "ECEEC-8 ECEEC-12"
+    "ECEEC-9 ECEEC-15";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 100px 150px 200px 300px repeat(2, 320px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tcastillo-cielo{grid-area: tcastillo-cielo;}
+.ECEEC-0{grid-area: ECEEC-0;}
+.txt1castillo-cielo{grid-area: txt1castillo-cielo;}
+.txt2castillo-cielo{grid-area: txt2castillo-cielo;}
+.vcastillo-cielo{grid-area: vcastillo-cielo;}
+.ECEEC-8{grid-area: ECEEC-8;}
+.ECEEC-12{grid-area: ECEEC-12;}
+.ECEEC-9{grid-area: ECEEC-9;}
+.ECEEC-15{grid-area: ECEEC-15;}
+
+
+.totoro img{
+    width: 100%;
+    height: 100%;
+}
+.totoro iframe{
+    width: 90%;
+    height: 80%;
+}
+.totoro{
+    display: grid;
+    grid-template-areas: 
+    "ttotoro ttotoro"
+    "MVT-0 MVT-0"
+    "MVT-7-1 txt1totoro"
+    "MVT-7-1 vtotoro"
+    "MVT-7-1 txt2totoro"
+    "MVT-7-1 txt3totoro"
+    "MVT-7-1 txt4totoro"
+    "MVT-7-1 txt5totoro"
+    "MVT-9 MVT-10";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 100px 640px 100px 400px 30px repeat(3, 120px) 350px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.ttotoro{grid-area: ttotoro;}
+.MVT-0{grid-area: MVT-0;}
+.txt1totoro{grid-area: txt1totoro;}
+.vtotoro{grid-area: vtotoro;}
+.MVT-7-1{grid-area: MVT-7-1;}
+.txt2totoro{grid-area: txt2totoro;}
+.MVT-9{grid-area: MVT-9;}
+.MVT-10{grid-area: MVT-10;}
+
+
+.chihiro img{
+    width: 100%;
+    height: 100%;
+}
+.chihiro iframe{
+    width: 90%;
+    height: 90%;
+}
+.chihiro{
+    display: grid;
+    grid-template-areas: 
+    "tchihiro tchihiro"
+    "EVDC-8 txt1chihiro"
+    "EVDC-8 txt2chihiro"
+    "EVDC-8 vchihiro"
+    "EVDC-8 txt3chihiro"
+    "EVDC-8 txt4chihiro"
+    "EVDC-21 EVDC-14"
+    "EVDC-16 EVDC-17";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px repeat(2, 100px) 400px 100px 200px repeat(2, 340px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.tchihiro{grid-area: tchihiro;}
+.EVDC-8{grid-area: EVDC-8;}
+.txt1chihiro{grid-area: txt1chihiro;}
+.txt2chihiro{grid-area: txt2chihiro;}
+.vchihiro{grid-area: vchihiro;}
+.txt3chihiro{grid-area: txt3chihiro;}
+.txt4chihiro{grid-area: txt4chihiro;}
+.EVDC-17{grid-area: EVDC-17;}
+.EVDC-21{grid-area: EVDC-21;}
+.EVDC-14{grid-area: EVDC-14;}
+.EVDC-16{grid-area: EVDC-16;}
+
+
+.howl img{
+    width: 100%;
+    height: 100%;
+}
+.howl{
+    display: grid;
+    grid-template-areas:
+    "thowl thowl"
+    "EICV-4 EICV-4"
+    "EICV-2 txt1howl"
+    "EICV-2 vhowl"
+    "EICV-2 txt2howl"
+    "EICV-2 EICV-10"
+    "EICV-8 EICV-15";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 600px 100px 400px 50px repeat(2, 350px);
+    120px 600px 150px 400px 150px repeat(2, 300px 400px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.thowl{grid-area: thowl;}
+.EICV-4{grid-area: EICV-4;}
+.EICV-2{grid-area: EICV-2;}
+.txt1howl{grid-area: txt1howl;}
+.EICV-2{grid-area: EICV-2;}
+.vhowl{grid-area: vhowl;}
+.txt2howl{grid-area: txt2howl;}
+.EICV-5{grid-area: EICV-5;}
+.EICV-9{grid-area: EICV-9;}
+.EICV-10{grid-area: EICV-10;}
+.EICV-8{grid-area: EICV-8;}
+.EICV-15{grid-area: EICV-15;}
+
+
+.ponyo img{
+    width: 90%;
+    height: 100%;
+}
+.ponyo{
+    display: grid;
+    grid-template-areas:
+    "tponyo tponyo"
+    "P-15 P-15"
+    "txt1ponyo P-16"
+    "vponyo P-16"
+    "txt2ponyo P-16"
+    "txt3ponyo P-16"
+    "P-17 P-13"
+    "P-10 P-14";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 550px 100px 400px repeat(2,150px) 420px 350px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tponyo{grid-area: tponyo;}
+.P-15{grid-area: P-15;}
+.txt1ponyo{grid-area: txt1ponyo;}
+.P-16{grid-area: P-16;}
+.vponyo{grid-area: vponyo;}
+.txt2ponyo{grid-area: txt2ponyo;}
+.txt3ponyo{grid-area: txt3ponyo;}
+.P-17{grid-area: P-17;}
+.P-13{grid-area: P-13;}
+.P-10{grid-area: P-10;}
+.P-14{grid-area: P-14;}
+
+
+.chico-garza img{
+    width: 90%;
+    height: 100%;
+}
+.chico-garza{
+    display: grid;
+    grid-template-areas:
+    "tchico-garza tchico-garza"
+    "ECYLG-1 txt1chico-garza"
+    "ECYLG-1 vchico-garza"
+    "ECYLG-1 txt2chico-garza"
+    "ECYLG-9 ECYLG-13"
+    "ECYLG-11 ECYLG-13";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 100px 450px 150px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tchico-garza{grid-area: tchico-garza;}
+.ECYLG-1{grid-area: ECYLG-1;}
+.txt1chico-garza{grid-area: txt1chico-garza;}
+.vchico-garza{grid-area: vchico-garza;}
+.txt2chico-garza{grid-area: txt2chico-garza;}
+.ECYLG-13{grid-area: ECYLG-13;}
+.ECYLG-9{grid-area: ECYLG-9;}
+.ECYLG-11{grid-area: ECYLG-11;}
+
+
+/* main personajes */
+.nausicaa img{
+    width: 100%;
+    height: 100%;
+}
+.nausicaa{
+    display: grid;
+    grid-template-areas: 
+    "NDVDV-15 NDVDV-15 tnausicaa"
+    "NDVDV-15 NDVDV-15 txtnausicaa"
+    "NDVDV-15 NDVDV-15 NDVDV-16"
+    "NDVDV-9 NDVDV-8 NDVDV-12";
+
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 150px 300px 700px 280px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tnausicaa{grid-area: tnausicaa;}
+.NDVDV-15{grid-area: NDVDV-15;}
+.txtnausicaa{grid-area: txtnausicaa;}
+.NDVDV-16{grid-area: NDVDV-16;}
+.NDVDV-1{grid-area: NDVDV-1;}
+.NDVDV-9{grid-area: NDVDV-9;}
+.NDVDV-17{grid-area: NDVDV-17;}
+.NDVDV-8{grid-area: NDVDV-8;}
+.NDVDV-12{grid-area: NDVDV-12;}
+
+
+
+/* main arte y animación */
+.v1aya{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 50px 0px;
+}
+.aya img{
+    width: 100%;
+    height: 100%;
+}
+.aya{
+    display: grid;
+    grid-template-areas:
+    "aya-1 aya-2 aya-3"
+    "aya-4 aya-5 aya-6"
+    "aya-7 aya-8 aya-9"
+    "aya-10 aya-11 aya-12"
+    "aya-13 aya-14 aya-15"
+    "aya-16 aya-17 aya-18"
+    "aya-19 aya-20 aya-21";
+
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.aya-1{grid-area: aya-1;}
+.aya-2{grid-area: aya-2;}
+.aya-3{grid-area: aya-3;}
+.aya-4{grid-area: aya-4;}
+.aya-5{grid-area: aya-5;}
+.aya-6{grid-area: aya-6;}
+.aya-7{grid-area: aya-7;}
+.aya-8{grid-area: aya-8;}
+.aya-9{grid-area: aya-9;}
+.aya-10{grid-area: aya-10;}
+.aya-11{grid-area: aya-11;}
+.aya-12{grid-area: aya-12;}
+.aya-13{grid-area: aya-13;}
+.aya-14{grid-area: aya-14;}
+.aya-15{grid-area: aya-15;}
+.aya-16{grid-area: aya-16;}
+.aya-17{grid-area: aya-17;}
+.aya-18{grid-area: aya-18;}
+.aya-19{grid-area: aya-19;}
+.aya-20{grid-area: aya-20;}
+.aya-21{grid-area: aya-21;}
+
+
+/* main soundtrack */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jh{
+    width: 700px;
+    margin-bottom: 50px;
+    }
+.vjh{
+    margin: 50px 0px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0px;
+    background-color: rgb(18, 159, 169);
+    height: 100px;
+}
