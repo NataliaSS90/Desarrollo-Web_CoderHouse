@@ -34,10 +34,12 @@ header a{
 }
 
 nav{
-    width: 50%;
+    width: 67%;
 }
-
-header ul{
+.navbar-nav{
+    width: 100%;
+}
+.navbar-nav{
     list-style: none;
     text-align: right;
     font-weight: 500;
@@ -50,7 +52,7 @@ header ul{
 
 
 .banner{
-    background-image: url(../img/carrusel_imagenes/1920x1080-px-bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
+    background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -60,6 +62,7 @@ header ul{
 /* font-family: "Bona Nova", serif; */
 main p{
     padding: 0px 80px;
+    color: rgb(42, 19, 15)
 }
 main article{
     height: 1000px;
@@ -77,9 +80,6 @@ h1, h2{
     font-weight: 600;
     margin: 30px 0;
     text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
-    color: rgb(42, 19, 15)
-}
-p{
     color: rgb(42, 19, 15)
 }
 h3{
@@ -116,6 +116,7 @@ h4{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
 }
 
 
