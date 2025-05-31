@@ -37,9 +37,10 @@ nav{
     width: 67%;
 }
 .navbar-nav{
-    width: 100%;
+    
 }
 .navbar-nav{
+    width: 100%;
     list-style: none;
     text-align: right;
     font-weight: 500;
@@ -106,19 +107,15 @@ h4{
     margin: 30px 0;
     text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
 }
-.hayao-miyasaki{width: 350px;}
-.isao-takahata{width: 320px;}
-.toshio-suzuki{width: 400px;}
-.legado-texto{margin-bottom: 30px;}
 
 .card-group{
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
 }
-
 
 /*main peliculas*/
 .nausicaa img{
@@ -137,7 +134,7 @@ h4{
     "NDVDV-3 vnausicaa"
     "txt2nausicaa NDVDV-4"
     "NDVDV-11 NDVDV-4";
-    
+
     grid-template-columns: repeat(2, 40%);
     grid-template-rows: 70px 120px 250px 100px 300px;
     gap: 20px;
@@ -152,6 +149,7 @@ h4{
 .txt2nausicaa{grid-area: txt2nausicaa;}
 .NDVDV-4{grid-area: NDVDV-4;}
 .NDVDV-11{grid-area: NDVDV-11;}
+.NDVDV-4{grid-area: NDVDV-4;}
 
 
 .castillo-cielo img{
@@ -169,7 +167,7 @@ h4{
     "ECEEC-9 ECEEC-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 100px 150px 200px 300px repeat(2, 320px);
+    grid-template-rows: 120px 150px 200px 300px repeat(2, 320px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -184,6 +182,39 @@ h4{
 .ECEEC-12{grid-area: ECEEC-12;}
 .ECEEC-9{grid-area: ECEEC-9;}
 .ECEEC-15{grid-area: ECEEC-15;}
+
+
+.luciernagas img{
+    width: 100%;
+    height: 100%;
+}
+.luciernagas{
+    display: grid;
+    grid-template-areas: 
+    "tluciernagas tluciernagas"
+    "LTDLL-1 txt1luciernagas"
+    "LTDLL-1 vluciernagas"
+    "txt2luciernagas txt3luciernagas"
+    "LTDLL-13 LTDLL-10"
+    "LTDLL-14 LTDLL-10";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 200px 300px 150px 500px 500px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tluciernagas{grid-area: tluciernagas;}
+.LTDLL-1{grid-area: LTDLL-1;}
+.txt1luciernagas{grid-area: txt1luciernagas;}
+.vluciernagas{grid-area: vluciernagas;}
+.txt2luciernagas{grid-area: txt2luciernagas;}
+.txt3luciernagas{grid-area: txt3luciernagas;}
+.LTDLL-13{grid-area: LTDLL-13;}
+.LTDLL-10{grid-area: LTDLL-10;}
+.LTDLL-14 {grid-area: LTDLL-14 ;}
+
 
 
 .totoro img{
@@ -208,7 +239,7 @@ h4{
     "MVT-9 MVT-10";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 100px 640px 100px 400px 30px repeat(3, 120px) 350px;
+    grid-template-rows: 120px 640px 100px 400px 30px repeat(3, 120px) 350px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -222,6 +253,68 @@ h4{
 .txt2totoro{grid-area: txt2totoro;}
 .MVT-9{grid-area: MVT-9;}
 .MVT-10{grid-area: MVT-10;}
+
+.kiki img{
+    width: 100%;
+    height: 100%;
+}
+.kiki{
+    display: grid;
+    grid-template-areas:
+    "tkiki tkiki"
+    "KEAD-8 KEAD-8"
+    "txt1kiki vkiki"
+    "txt2kiki vkiki"
+    "KEAD-9 KEAD-10"
+    "KEAD-15 KEAD-17";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 540px repeat(2, 200px) repeat(2,340px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tkiki{grid-area: tkiki;}
+.KEAD-8{grid-area: KEAD-8;}
+.txt1kiki{grid-area: txt1kiki;}
+.vkiki{grid-area: vkiki;}
+.txt2kiki{grid-area: txt2kiki;}
+.KEAD-9{grid-area: KEAD-9;}
+.KEAD-10{grid-area: KEAD-10;}
+.KEAD-15{grid-area: KEAD-15;}
+.KEAD-17{grid-area: KEAD-17;}
+
+
+.mononoke img{
+    width: 100%;
+    height: 100%;
+}
+.mononoke{
+    display: grid;
+    grid-template-areas: 
+    "tmononoke tmononoke"
+    "LPM-0 txt1mononoke"
+    "LPM-0 vmononoke"
+    "LPM-0 txt2mononoke"
+    "LPM-4 LPM-12"
+    "LPM-17 LPM-12";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 220px 350px 220px repeat(2, 400px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tmononoke{grid-area: ;}
+.LPM-0{grid-area: LPM-0;}
+.txt1mononoke{grid-area: txt1mononoke;}
+.vmononoke{grid-area: vmononoke;}
+.txt2mononoke{grid-area: txt2mononoke;}
+.LPM-4{grid-area: LPM-4;}
+.LPM-12{grid-area: LPM-12;}
+.LPM-17{grid-area: LPM-17;}
 
 
 .chihiro img{
@@ -338,6 +431,76 @@ h4{
 .P-14{grid-area: P-14;}
 
 
+.amapolas img{
+    width: 100%;
+    height: 100%;
+}
+.amapolas{
+    display: grid;
+    grid-template-areas:
+    "tamapolas tamapolas"
+    "LCDLA-15 LCDLA-15"
+    "txt1amapolas vamapolas"
+    "txt2amapolas vamapolas"
+    "txt3amapolas vamapolas"
+    "LCDLA-10 LCDLA-11"
+    "LCDLA-10 LCDLA-12";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 500px 200px 100px 200px repeat(2, 400px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.tamapolas{grid-area: tamapolas;}
+.LCDLA-15{grid-area: LCDLA-15;}
+.txt1amapolas{grid-area: txt1amapolas;}
+.txt2amapolas{grid-area: txt2amapolas;}
+.txt3amapolas{grid-area: txt3amapolas;}
+.vamapolas{grid-area: vamapolas;}
+.LCDLA-10{grid-area: LCDLA-10;}
+.LCDLA-11{grid-area: LCDLA-11;}
+.LCDLA-12{grid-area: LCDLA-12;}
+
+
+.viento img{
+    width: 100%;
+    height: 100%;
+}
+.viento{
+    display: grid;
+    grid-template-areas:
+    "tviento tviento"
+    "SLEV-12 SLEV-12"
+    "vviento txt1viento"
+    "vviento txt2viento"
+    "vviento txt3viento"
+    "vviento txt4viento"
+    "SLEV-13 SLEV-7"
+    "SLEV-9 SLEV-8";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 500px 200px repeat(3, 120px) repeat(2, 350px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+.tviento{grid-area: tviento;}
+.SLEV-12{grid-area: SLEV-12;}
+.vviento{grid-area: vviento;}
+.txt1viento{grid-area: txt1viento;}
+.txt2viento{grid-area: txt2viento;}
+.txt3viento{grid-area: txt3viento;}
+.txt4viento{grid-area: txt4viento;}
+.SLEV-13{grid-area: SLEV-13;}
+.SLEV-7{grid-area: SLEV-7;}
+.SLEV-9{grid-area: SLEV-9;}
+.SLEV-8{grid-area: SLEV-8;}
+
+
 .chico-garza img{
     width: 90%;
     height: 100%;
@@ -369,18 +532,19 @@ h4{
 .ECYLG-11{grid-area: ECYLG-11;}
 
 
+
 /* main personajes */
-.nausicaa img{
+.personaje-nausicaa img{
     width: 100%;
     height: 100%;
 }
-.nausicaa{
+.personaje-nausicaa{
     display: grid;
     grid-template-areas: 
-    "NDVDV-15 NDVDV-15 tnausicaa"
-    "NDVDV-15 NDVDV-15 txtnausicaa"
-    "NDVDV-15 NDVDV-15 NDVDV-16"
-    "NDVDV-9 NDVDV-8 NDVDV-12";
+    "pNDVDV-15 pNDVDV-15 ptnausicaa"
+    "pNDVDV-15 pNDVDV-15 ptxtnausicaa"
+    "pNDVDV-15 pNDVDV-15 pNDVDV-16"
+    "pNDVDV-9 pNDVDV-8 pNDVDV-12";
 
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 150px 300px 700px 280px;
@@ -388,15 +552,15 @@ h4{
     justify-content: center;
     align-items: center;
 }
-.tnausicaa{grid-area: tnausicaa;}
-.NDVDV-15{grid-area: NDVDV-15;}
-.txtnausicaa{grid-area: txtnausicaa;}
-.NDVDV-16{grid-area: NDVDV-16;}
-.NDVDV-1{grid-area: NDVDV-1;}
-.NDVDV-9{grid-area: NDVDV-9;}
-.NDVDV-17{grid-area: NDVDV-17;}
-.NDVDV-8{grid-area: NDVDV-8;}
-.NDVDV-12{grid-area: NDVDV-12;}
+.ptnausicaa{grid-area: ptnausicaa;}
+.pNDVDV-15{grid-area: pNDVDV-15;}
+.ptxtnausicaa{grid-area: ptxtnausicaa;}
+.pNDVDV-16{grid-area: pNDVDV-16;}
+.pNDVDV-1{grid-area: pNDVDV-1;}
+.pNDVDV-9{grid-area: pNDVDV-9;}
+.pNDVDV-17{grid-area: pNDVDV-17;}
+.pNDVDV-8{grid-area: pNDVDV-8;}
+.pNDVDV-12{grid-area: pNDVDV-12;}
 
 
 

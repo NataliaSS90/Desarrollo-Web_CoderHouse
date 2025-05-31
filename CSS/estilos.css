@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Znamenny+Musical+Notation&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: "Noto Znamenny Musical Notation", sans-serif; */
+/*body*/
+body {
+  background-color: rgb(123, 219, 254);
+  font-family: "Bona Nova", serif;
+}
+
+/*header*/
+header .banner {
+  background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header img {
+  width: 350px;
+}
+header nav {
+  width: 67%;
+}
+header .navbar-nav {
+  width: 100%;
+  list-style: none;
+  text-align: right;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 90%;
+  text-shadow: -7px 8px 12px rgba(0, 0, 0, 0.57);
+}
+header header a {
+  color: rgb(33, 23, 150);
+  text-decoration-line: none;
+  font-weight: 600;
+}
+
+/*main*/
+main article {
+  height: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main h1, main h2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  margin: 30px 0;
+  text-shadow: -2px 2px 6px rgba(0, 0, 0, 0.3);
+  color: rgb(42, 19, 15);
+}
+
+/*footer*/
+
+/*# sourceMappingURL=estilos.css.map */
