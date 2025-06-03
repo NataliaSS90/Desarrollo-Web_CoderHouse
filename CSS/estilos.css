@@ -13,11 +13,6 @@ body {
 }
 
 /*header*/
-header .banner {
-  background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
-  background-size: cover;
-  background-position: center;
-}
 header img {
   width: 350px;
 }
@@ -39,6 +34,11 @@ header header a {
   color: rgb(33, 23, 150);
   text-decoration-line: none;
   font-weight: 600;
+}
+header .banner {
+  background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /*main*/

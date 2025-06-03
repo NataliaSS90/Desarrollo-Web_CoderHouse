@@ -61,6 +61,7 @@ nav{
 
 /*main */
 /* font-family: "Bona Nova", serif; */
+/**/
 main p{
     padding: 0px 80px;
     color: rgb(42, 19, 15)
@@ -81,7 +82,7 @@ h1, h2{
     font-weight: 600;
     margin: 30px 0;
     text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
-    color: rgb(42, 19, 15)
+    color: rgb(62, 29, 23)
 }
 h3{
     color: rgb(48, 105, 35);
@@ -91,7 +92,10 @@ h4{
     padding: 0px 80px;
 }
 
+/**/
 /*main index*/
+/**/
+
 .arquitectura-emocional{
     display: flex;
     justify-content: center;
@@ -108,19 +112,144 @@ h4{
     text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
 }
 
-.card-group{
+
+.card-animation{
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: blanchedalmond;
+    width: 1800px;
+    height: 600px;
+}
+/*aqui empieza la animación de las card*/
+.card {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background: linear-gradient(-45deg, #1ea8bd 0%, #d55385 100% );
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  margin-bottom: 50px;
 }
 
+.card img{
+  width: 100%;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.img-toshio-suzuki{
+    height: 100%;
+}
+
+.card:hover {
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.card:hover img {
+  scale: 0;
+  transform: rotate(-45deg);
+}
+
+
+/* aqui empieza la animación del reel de imágenes*/
+.wrapper img{
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 20px;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0 30px;
+}
+
+.gallery {
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.gallery__img {
+  scroll-snap-align: start;
+  margin-bottom: 10px;
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+.lil-nav {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.lil-nav a {
+  height: 200px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.lil-nav__img {
+  object-fit: cover;
+  filter: saturate(0);
+  transition: 0.3s ease all;
+}
+
+.lil-nav__img:hover {
+  transform: scale(1.05);
+  filter: saturate(1);
+}
+
+
+
+/**/
 /*main peliculas*/
+/*nausicaa*/
+
 .nausicaa img{
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 .nausicaa iframe{
     width: 80%;
@@ -132,11 +261,12 @@ h4{
     "tnausicaa tnausicaa"
     "NDVDV-3 txt1nausicaa"
     "NDVDV-3 vnausicaa"
+    "txt3nausicaa NDVDV-4"
     "txt2nausicaa NDVDV-4"
     "NDVDV-11 NDVDV-4";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 70px 120px 250px 100px 300px;
+    grid-template-rows: 70px 200px 250px 70px 150px 300px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -150,8 +280,10 @@ h4{
 .NDVDV-4{grid-area: NDVDV-4;}
 .NDVDV-11{grid-area: NDVDV-11;}
 .NDVDV-4{grid-area: NDVDV-4;}
+.txt3nausicaa{grid-area: txt3nausicaa;}
 
 
+/*castillo-cielo*/
 .castillo-cielo img{
     width: 100%;
     height: 100%;
@@ -161,13 +293,13 @@ h4{
     grid-template-areas: 
     "tcastillo-cielo tcastillo-cielo"
     "ECEEC-0 txt1castillo-cielo"
-    "ECEEC-0 txt2castillo-cielo"
-    "vcastillo-cielo vcastillo-cielo"
+    "txt3castillo-cielo vcastillo-cielo"
+    "txt2castillo-cielo vcastillo-cielo"
     "ECEEC-8 ECEEC-12"
     "ECEEC-9 ECEEC-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 150px 200px 300px repeat(2, 320px);
+    grid-template-rows: 120px 310px 60px 250px repeat(2, 320px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -182,25 +314,34 @@ h4{
 .ECEEC-12{grid-area: ECEEC-12;}
 .ECEEC-9{grid-area: ECEEC-9;}
 .ECEEC-15{grid-area: ECEEC-15;}
+.txt3castillo-cielo{
+    grid-area: txt3castillo-cielo;
+    text-align: center;
+}
 
 
+/*luciernagas*/
 .luciernagas img{
     width: 100%;
     height: 100%;
 }
+
 .luciernagas{
     display: grid;
     grid-template-areas: 
     "tluciernagas tluciernagas"
     "LTDLL-1 txt1luciernagas"
     "LTDLL-1 vluciernagas"
-    "txt2luciernagas txt3luciernagas"
+    "LTDLL-1 txt4luciernagas"
+    "LTDLL-1 txt2luciernagas"
+    "LTDLL-1 txt3luciernagas"
+    "LTDLL-4 LTDLL-10"
     "LTDLL-13 LTDLL-10"
     "LTDLL-14 LTDLL-10";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 200px 300px 150px 500px 500px;
-    gap: 20px;
+    grid-template-rows: 120px 200px 280px 70px 180px 120px repeat(3, 400px);
+    gap: 25px;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -214,32 +355,37 @@ h4{
 .LTDLL-13{grid-area: LTDLL-13;}
 .LTDLL-10{grid-area: LTDLL-10;}
 .LTDLL-14 {grid-area: LTDLL-14 ;}
+.LTDLL-4{grid-area: LTDLL-4;}
+.txt4luciernagas{
+    grid-area: txt4luciernagas;
+    text-align: center;
+    padding-top: 15px;
+}
 
-
-
+/*totoro*/
 .totoro img{
     width: 100%;
     height: 100%;
 }
+
 .totoro iframe{
-    width: 90%;
-    height: 80%;
-}
+    width:90%;}
+
 .totoro{
     display: grid;
     grid-template-areas: 
     "ttotoro ttotoro"
     "MVT-0 MVT-0"
-    "MVT-7-1 txt1totoro"
-    "MVT-7-1 vtotoro"
-    "MVT-7-1 txt2totoro"
-    "MVT-7-1 txt3totoro"
-    "MVT-7-1 txt4totoro"
-    "MVT-7-1 txt5totoro"
+    "MVT-7 txt1totoro"
+    "MVT-7 vtotoro"
+    "MVT-7 txt2totoro"
+    "MVT-7 txt3totoro"
+    "MVT-7 txt4totoro"
+    "MVT-7 txt5totoro"
     "MVT-9 MVT-10";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 640px 100px 400px 30px repeat(3, 120px) 350px;
+    grid-template-rows: 120px 640px 200px 370px 30px repeat(2, 100px) 180px 350px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -249,11 +395,13 @@ h4{
 .MVT-0{grid-area: MVT-0;}
 .txt1totoro{grid-area: txt1totoro;}
 .vtotoro{grid-area: vtotoro;}
-.MVT-7-1{grid-area: MVT-7-1;}
-.txt2totoro{grid-area: txt2totoro;}
+.MVT-7{grid-area: MVT-7;}
 .MVT-9{grid-area: MVT-9;}
 .MVT-10{grid-area: MVT-10;}
+.txt2totoro{grid-area: txt2totoro;}
 
+
+/*kiki*/
 .kiki img{
     width: 100%;
     height: 100%;
@@ -264,12 +412,13 @@ h4{
     "tkiki tkiki"
     "KEAD-8 KEAD-8"
     "txt1kiki vkiki"
+    "txt3kiki vkiki"
     "txt2kiki vkiki"
     "KEAD-9 KEAD-10"
     "KEAD-15 KEAD-17";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 540px repeat(2, 200px) repeat(2,340px);
+    grid-template-rows: 120px 540px 200px 30px 200px repeat(2,340px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -284,8 +433,13 @@ h4{
 .KEAD-10{grid-area: KEAD-10;}
 .KEAD-15{grid-area: KEAD-15;}
 .KEAD-17{grid-area: KEAD-17;}
+.txt3kiki{
+    grid-area: txt3kiki;
+    text-align: center;
+}
 
 
+/*mononoke*/
 .mononoke img{
     width: 100%;
     height: 100%;
@@ -296,12 +450,13 @@ h4{
     "tmononoke tmononoke"
     "LPM-0 txt1mononoke"
     "LPM-0 vmononoke"
+    "LPM-0 txt3mononoke"
     "LPM-0 txt2mononoke"
     "LPM-4 LPM-12"
     "LPM-17 LPM-12";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 220px 350px 220px repeat(2, 400px);
+    grid-template-rows: 120px 200px 350px 30px 220px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -315,8 +470,13 @@ h4{
 .LPM-4{grid-area: LPM-4;}
 .LPM-12{grid-area: LPM-12;}
 .LPM-17{grid-area: LPM-17;}
+.txt3mononoke{
+    grid-area: txt3mononoke;
+    text-align: center;
+}
 
 
+/*chihiro*/
 .chihiro img{
     width: 100%;
     height: 100%;
@@ -332,13 +492,14 @@ h4{
     "EVDC-8 txt1chihiro"
     "EVDC-8 txt2chihiro"
     "EVDC-8 vchihiro"
+    "EVDC-8 txt5chihiro"
     "EVDC-8 txt3chihiro"
     "EVDC-8 txt4chihiro"
     "EVDC-21 EVDC-14"
     "EVDC-16 EVDC-17";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px repeat(2, 100px) 400px 100px 200px repeat(2, 340px);
+    grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px repeat(2, 340px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -356,11 +517,16 @@ h4{
 .EVDC-21{grid-area: EVDC-21;}
 .EVDC-14{grid-area: EVDC-14;}
 .EVDC-16{grid-area: EVDC-16;}
+.txt5chihiro{grid-area: txt5chihiro;}
 
 
+/*howl*/
 .howl img{
     width: 100%;
     height: 100%;
+}
+.howl iframe{
+    width: 90%;
 }
 .howl{
     display: grid;
@@ -370,12 +536,13 @@ h4{
     "EICV-2 txt1howl"
     "EICV-2 vhowl"
     "EICV-2 txt2howl"
-    "EICV-2 EICV-10"
+    "EICV-2 txt3howl"
+    "EICV-2 txt4howl"
+    "EICV-27 EICV-47"
     "EICV-8 EICV-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 600px 100px 400px 50px repeat(2, 350px);
-    120px 600px 150px 400px 150px repeat(2, 300px 400px);
+    grid-template-rows: 120px 600px 180px 350px 30px repeat(2, 120px) repeat(2, 350px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -387,14 +554,20 @@ h4{
 .txt1howl{grid-area: txt1howl;}
 .EICV-2{grid-area: EICV-2;}
 .vhowl{grid-area: vhowl;}
-.txt2howl{grid-area: txt2howl;}
+.txt3howl{grid-area: txt3howl;}
+.txt4howl{grid-area: txt4howl;}
 .EICV-5{grid-area: EICV-5;}
 .EICV-9{grid-area: EICV-9;}
 .EICV-10{grid-area: EICV-10;}
 .EICV-8{grid-area: EICV-8;}
 .EICV-15{grid-area: EICV-15;}
+.txt2howl{
+    grid-area: txt2howl;
+    text-align: center;
+}
 
 
+/*ponyo*/
 .ponyo img{
     width: 90%;
     height: 100%;
@@ -406,13 +579,14 @@ h4{
     "P-15 P-15"
     "txt1ponyo P-16"
     "vponyo P-16"
+    "txt4ponyo P-16"
     "txt2ponyo P-16"
     "txt3ponyo P-16"
     "P-17 P-13"
     "P-10 P-14";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 550px 100px 400px repeat(2,150px) 420px 350px;
+    grid-template-rows: 120px 550px 250px 350px 30px 150px 180px 380px 320px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -429,8 +603,10 @@ h4{
 .P-13{grid-area: P-13;}
 .P-10{grid-area: P-10;}
 .P-14{grid-area: P-14;}
+.txt4ponyo{grid-area: txt4ponyo;}
 
 
+/*amapolas*/
 .amapolas img{
     width: 100%;
     height: 100%;
@@ -441,13 +617,14 @@ h4{
     "tamapolas tamapolas"
     "LCDLA-15 LCDLA-15"
     "txt1amapolas vamapolas"
+    "txt4amapolas vamapolas"
     "txt2amapolas vamapolas"
     "txt3amapolas vamapolas"
     "LCDLA-10 LCDLA-11"
     "LCDLA-10 LCDLA-12";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 500px 200px 100px 200px repeat(2, 400px);
+    grid-template-rows: 120px 600px 250px 40px 70px 200px repeat(2, 320px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -462,8 +639,13 @@ h4{
 .LCDLA-10{grid-area: LCDLA-10;}
 .LCDLA-11{grid-area: LCDLA-11;}
 .LCDLA-12{grid-area: LCDLA-12;}
+.txt4amapolas{
+    grid-area: txt4amapolas;
+    text-align: center;
+}
 
 
+/*viento*/
 .viento img{
     width: 100%;
     height: 100%;
@@ -474,6 +656,7 @@ h4{
     "tviento tviento"
     "SLEV-12 SLEV-12"
     "vviento txt1viento"
+    "vviento txt5viento"
     "vviento txt2viento"
     "vviento txt3viento"
     "vviento txt4viento"
@@ -481,7 +664,7 @@ h4{
     "SLEV-9 SLEV-8";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 500px 200px repeat(3, 120px) repeat(2, 350px);
+    grid-template-rows: 120px 500px 200px 30px repeat(3, 100px) repeat(2, 330px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -499,11 +682,16 @@ h4{
 .SLEV-7{grid-area: SLEV-7;}
 .SLEV-9{grid-area: SLEV-9;}
 .SLEV-8{grid-area: SLEV-8;}
+.txt5viento{grid-area: txt5viento;}
 
 
+/*chico-garza*/
 .chico-garza img{
     width: 90%;
     height: 100%;
+}
+.chico-garza iframe{
+    width: 90%;
 }
 .chico-garza{
     display: grid;
@@ -511,12 +699,13 @@ h4{
     "tchico-garza tchico-garza"
     "ECYLG-1 txt1chico-garza"
     "ECYLG-1 vchico-garza"
+    "ECYLG-1 txt3chico-garza"
     "ECYLG-1 txt2chico-garza"
     "ECYLG-9 ECYLG-13"
     "ECYLG-11 ECYLG-13";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 100px 450px 150px 300px 300px;
+    grid-template-rows: 120px 120px 380px 40px 200px 280px 280px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
@@ -532,8 +721,9 @@ h4{
 .ECYLG-11{grid-area: ECYLG-11;}
 
 
-
+/**/
 /* main personajes */
+/*personaje-nausicaa*/
 .personaje-nausicaa img{
     width: 100%;
     height: 100%;
@@ -561,6 +751,9 @@ h4{
 .pNDVDV-17{grid-area: pNDVDV-17;}
 .pNDVDV-8{grid-area: pNDVDV-8;}
 .pNDVDV-12{grid-area: pNDVDV-12;}
+
+
+/*personaje-nausicaa*/
 
 
 
@@ -614,7 +807,11 @@ h4{
 .aya-21{grid-area: aya-21;}
 
 
+
+
+/**/
 /* main soundtrack */
+/**/
 main{
     display: flex;
     flex-direction: column;
@@ -628,15 +825,19 @@ main{
     margin: 50px 0px;
 }
 
+
+
+
+/**/
 /* footer */
-footer{
+/**/
+.footer-text{
     text-align: center;
     margin-bottom: 30px;
     font-weight: 600;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 70px 0px;
-    background-color: rgb(18, 159, 169);
+    background-color: #14a6dc;
     height: 100px;
 }
