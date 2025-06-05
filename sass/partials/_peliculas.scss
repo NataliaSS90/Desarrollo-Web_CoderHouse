@@ -1,0 +1,485 @@
+/*main peliculas*/
+
+//nausicaa
+.nausicaa{
+    img{
+        width: 100%;
+        height: 90%;
+    }
+
+    iframe{
+        width: 80%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas: 
+        "tnausicaa tnausicaa"
+        "NDVDV-3 txt1nausicaa"
+        "NDVDV-3 vnausicaa"
+        "txt3nausicaa NDVDV-4"
+        "txt2nausicaa NDVDV-4"
+        "NDVDV-11 NDVDV-4";
+
+        grid-template-columns: repeat(2, 40%);
+        grid-template-rows: 70px 200px 250px 70px 150px 300px;
+        gap: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    
+    .tnausicaa{grid-area: tnausicaa;}
+    .NDVDV-3{grid-area: NDVDV-3;}
+    .txt1nausicaa{grid-area: txt1nausicaa;}
+    .vnausicaa{grid-area: vnausicaa;}
+    .txt2nausicaa{grid-area: txt2nausicaa;}
+    .NDVDV-4{grid-area: NDVDV-4;}
+    .NDVDV-11{grid-area: NDVDV-11;}
+    .NDVDV-4{grid-area: NDVDV-4;}
+    .txt3nausicaa{grid-area: txt3nausicaa;}
+}
+
+//castillo-cielo
+.castillo-cielo{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    display: grid;
+    grid-template-areas: 
+    "tcastillo-cielo tcastillo-cielo"
+    "ECEEC-0 txt1castillo-cielo"
+    "txt3castillo-cielo vcastillo-cielo"
+    "txt2castillo-cielo vcastillo-cielo"
+    "ECEEC-8 ECEEC-12"
+    "ECEEC-9 ECEEC-15";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 310px 60px 250px repeat(2, 320px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    .tcastillo-cielo{grid-area: tcastillo-cielo;}
+    .ECEEC-0{grid-area: ECEEC-0;}
+    .txt1castillo-cielo{grid-area: txt1castillo-cielo;}
+    .txt2castillo-cielo{grid-area: txt2castillo-cielo;}
+    .vcastillo-cielo{grid-area: vcastillo-cielo;}
+    .ECEEC-8{grid-area: ECEEC-8;}
+    .ECEEC-12{grid-area: ECEEC-12;}
+    .ECEEC-9{grid-area: ECEEC-9;}
+    .ECEEC-15{grid-area: ECEEC-15;}
+    .txt3castillo-cielo{
+        grid-area: txt3castillo-cielo;
+        text-align: center;
+    }
+}
+
+//luciernagas
+.luciernagas{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas: 
+    "tluciernagas tluciernagas"
+    "LTDLL-1 txt1luciernagas"
+    "LTDLL-1 vluciernagas"
+    "LTDLL-1 txt4luciernagas"
+    "LTDLL-1 txt2luciernagas"
+    "LTDLL-1 txt3luciernagas"
+    "LTDLL-4 LTDLL-10"
+    "LTDLL-13 LTDLL-10"
+    "LTDLL-14 LTDLL-10";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 200px 280px 70px 180px 120px repeat(3, 400px);
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tluciernagas{grid-area: tluciernagas;}
+    .LTDLL-1{grid-area: LTDLL-1;}
+    .txt1luciernagas{grid-area: txt1luciernagas;}
+    .vluciernagas{grid-area: vluciernagas;}
+    .txt2luciernagas{grid-area: txt2luciernagas;}
+    .txt3luciernagas{grid-area: txt3luciernagas;}
+    .LTDLL-13{grid-area: LTDLL-13;}
+    .LTDLL-10{grid-area: LTDLL-10;}
+    .LTDLL-14 {grid-area: LTDLL-14 ;}
+    .LTDLL-4{grid-area: LTDLL-4;}
+    .txt4luciernagas{
+        grid-area: txt4luciernagas;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+//totoro
+.totoro{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    iframe{
+        width:90%;
+    }
+
+    display: grid;
+    grid-template-areas: 
+    "ttotoro ttotoro"
+    "MVT-0 MVT-0"
+    "MVT-7 txt1totoro"
+    "MVT-7 vtotoro"
+    "MVT-7 txt2totoro"
+    "MVT-7 txt3totoro"
+    "MVT-7 txt4totoro"
+    "MVT-7 txt5totoro"
+    "MVT-9 MVT-10";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 640px 200px 370px 30px repeat(2, 100px) 180px 350px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .ttotoro{grid-area: ttotoro;}
+    .MVT-0{grid-area: MVT-0;}
+    .txt1totoro{grid-area: txt1totoro;}
+    .vtotoro{grid-area: vtotoro;}
+    .MVT-7{grid-area: MVT-7;}
+    .MVT-9{grid-area: MVT-9;}
+    .MVT-10{grid-area: MVT-10;}
+    .txt2totoro{grid-area: txt2totoro;}
+}
+
+//kiki
+.kiki{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "tkiki tkiki"
+    "KEAD-8 KEAD-8"
+    "txt1kiki vkiki"
+    "txt3kiki vkiki"
+    "txt2kiki vkiki"
+    "KEAD-9 KEAD-10"
+    "KEAD-15 KEAD-17";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 540px 200px 30px 200px repeat(2,340px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tkiki{grid-area: tkiki;}
+    .KEAD-8{grid-area: KEAD-8;}
+    .txt1kiki{grid-area: txt1kiki;}
+    .vkiki{grid-area: vkiki;}
+    .txt2kiki{grid-area: txt2kiki;}
+    .KEAD-9{grid-area: KEAD-9;}
+    .KEAD-10{grid-area: KEAD-10;}
+    .KEAD-15{grid-area: KEAD-15;}
+    .KEAD-17{grid-area: KEAD-17;}
+    .txt3kiki{
+        grid-area: txt3kiki;
+        text-align: center;
+    }
+}
+
+//mononoke
+.mononoke{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas: 
+    "tmononoke tmononoke"
+    "LPM-0 txt1mononoke"
+    "LPM-0 vmononoke"
+    "LPM-0 txt3mononoke"
+    "LPM-0 txt2mononoke"
+    "LPM-4 LPM-12"
+    "LPM-17 LPM-12";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 200px 350px 30px 220px repeat(2, 400px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tmononoke{grid-area: tmononoke;}
+    .LPM-0{grid-area: LPM-0;}
+    .txt1mononoke{grid-area: txt1mononoke;}
+    .vmononoke{grid-area: vmononoke;}
+    .txt2mononoke{grid-area: txt2mononoke;}
+    .LPM-4{grid-area: LPM-4;}
+    .LPM-12{grid-area: LPM-12;}
+    .LPM-17{grid-area: LPM-17;}
+    .txt3mononoke{
+        grid-area: txt3mononoke;
+        text-align: center;
+    }
+}
+
+//chihiro
+.chihiro{
+    img{
+    width: 100%;
+    height: 100%;
+    }
+
+    iframe{
+    width: 90%;
+    height: 90%;
+    }
+
+    display: grid;
+    grid-template-areas: 
+    "tchihiro tchihiro"
+    "EVDC-8 txt1chihiro"
+    "EVDC-8 txt2chihiro"
+    "EVDC-8 vchihiro"
+    "EVDC-8 txt5chihiro"
+    "EVDC-8 txt3chihiro"
+    "EVDC-8 txt4chihiro"
+    "EVDC-21 EVDC-14"
+    "EVDC-16 EVDC-17";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px repeat(2, 340px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tchihiro{grid-area: tchihiro;}
+    .EVDC-8{grid-area: EVDC-8;}
+    .txt1chihiro{grid-area: txt1chihiro;}
+    .txt2chihiro{grid-area: txt2chihiro;}
+    .vchihiro{grid-area: vchihiro;}
+    .txt3chihiro{grid-area: txt3chihiro;}
+    .txt4chihiro{grid-area: txt4chihiro;}
+    .EVDC-17{grid-area: EVDC-17;}
+    .EVDC-21{grid-area: EVDC-21;}
+    .EVDC-14{grid-area: EVDC-14;}
+    .EVDC-16{grid-area: EVDC-16;}
+    .txt5chihiro{grid-area: txt5chihiro;}
+}
+
+//howl
+.howl{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    iframe{
+        width: 90%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "thowl thowl"
+    "EICV-4 EICV-4"
+    "EICV-2 txt1howl"
+    "EICV-2 vhowl"
+    "EICV-2 txt2howl"
+    "EICV-2 txt3howl"
+    "EICV-2 txt4howl"
+    "EICV-27 EICV-47"
+    "EICV-8 EICV-15";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 600px 180px 350px 30px repeat(2, 120px) repeat(2, 350px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .thowl{grid-area: thowl;}
+    .EICV-4{grid-area: EICV-4;}
+    .EICV-2{grid-area: EICV-2;}
+    .txt1howl{grid-area: txt1howl;}
+    .EICV-2{grid-area: EICV-2;}
+    .vhowl{grid-area: vhowl;}
+    .txt3howl{grid-area: txt3howl;}
+    .txt4howl{grid-area: txt4howl;}
+    .EICV-5{grid-area: EICV-5;}
+    .EICV-9{grid-area: EICV-9;}
+    .EICV-10{grid-area: EICV-10;}
+    .EICV-8{grid-area: EICV-8;}
+    .EICV-15{grid-area: EICV-15;}
+    .txt2howl{
+        grid-area: txt2howl;
+        text-align: center;
+    }
+}
+
+//ponyo
+.ponyo{
+    img{
+        width: 90%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "tponyo tponyo"
+    "P-15 P-15"
+    "txt1ponyo P-16"
+    "vponyo P-16"
+    "txt4ponyo P-16"
+    "txt2ponyo P-16"
+    "txt3ponyo P-16"
+    "P-17 P-13"
+    "P-10 P-14";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 550px 250px 350px 30px 150px 180px 380px 320px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tponyo{grid-area: tponyo;}
+    .P-15{grid-area: P-15;}
+    .txt1ponyo{grid-area: txt1ponyo;}
+    .P-16{grid-area: P-16;}
+    .vponyo{grid-area: vponyo;}
+    .txt2ponyo{grid-area: txt2ponyo;}
+    .txt3ponyo{grid-area: txt3ponyo;}
+    .P-17{grid-area: P-17;}
+    .P-13{grid-area: P-13;}
+    .P-10{grid-area: P-10;}
+    .P-14{grid-area: P-14;}
+    .txt4ponyo{grid-area: txt4ponyo;}
+}
+
+//amapolas
+.amapolas{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "tamapolas tamapolas"
+    "LCDLA-15 LCDLA-15"
+    "txt1amapolas vamapolas"
+    "txt4amapolas vamapolas"
+    "txt2amapolas vamapolas"
+    "txt3amapolas vamapolas"
+    "LCDLA-10 LCDLA-11"
+    "LCDLA-10 LCDLA-12";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 600px 250px 40px 70px 200px repeat(2, 320px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tamapolas{grid-area: tamapolas;}
+    .LCDLA-15{grid-area: LCDLA-15;}
+    .txt1amapolas{grid-area: txt1amapolas;}
+    .txt2amapolas{grid-area: txt2amapolas;}
+    .txt3amapolas{grid-area: txt3amapolas;}
+    .vamapolas{grid-area: vamapolas;}
+    .LCDLA-10{grid-area: LCDLA-10;}
+    .LCDLA-11{grid-area: LCDLA-11;}
+    .LCDLA-12{grid-area: LCDLA-12;}
+    .txt4amapolas{
+        grid-area: txt4amapolas;
+        text-align: center;
+    }
+}
+
+//viento
+.viento{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "tviento tviento"
+    "SLEV-12 SLEV-12"
+    "vviento txt1viento"
+    "vviento txt5viento"
+    "vviento txt2viento"
+    "vviento txt3viento"
+    "vviento txt4viento"
+    "SLEV-13 SLEV-7"
+    "SLEV-9 SLEV-8";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 500px 200px 30px repeat(3, 100px) repeat(2, 330px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tviento{grid-area: tviento;}
+    .SLEV-12{grid-area: SLEV-12;}
+    .vviento{grid-area: vviento;}
+    .txt1viento{grid-area: txt1viento;}
+    .txt2viento{grid-area: txt2viento;}
+    .txt3viento{grid-area: txt3viento;}
+    .txt4viento{grid-area: txt4viento;}
+    .SLEV-13{grid-area: SLEV-13;}
+    .SLEV-7{grid-area: SLEV-7;}
+    .SLEV-9{grid-area: SLEV-9;}
+    .SLEV-8{grid-area: SLEV-8;}
+    .txt5viento{grid-area: txt5viento;}
+}
+
+//chico-garza
+.chico-garza{
+    img{
+        width: 90%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "tchico-garza tchico-garza"
+    "ECYLG-1 txt1chico-garza"
+    "ECYLG-1 vchico-garza"
+    "ECYLG-1 txt3chico-garza"
+    "ECYLG-1 txt2chico-garza"
+    "ECYLG-9 ECYLG-13"
+    "ECYLG-11 ECYLG-13";
+
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 120px 120px 380px 40px 200px 280px 280px;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .tchico-garza{grid-area: tchico-garza;}
+    .ECYLG-1{grid-area: ECYLG-1;}
+    .txt1chico-garza{grid-area: txt1chico-garza;}
+    .vchico-garza{grid-area: vchico-garza;}
+    .txt2chico-garza{grid-area: txt2chico-garza;}
+    .ECYLG-13{grid-area: ECYLG-13;}
+    .ECYLG-9{grid-area: ECYLG-9;}
+    .ECYLG-11{grid-area: ECYLG-11;}
+}
+

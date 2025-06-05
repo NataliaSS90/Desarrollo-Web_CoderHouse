@@ -1,0 +1,52 @@
+/* main arte y animación */
+//aya
+.aya{
+    .v1aya{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 50px 0px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "aya-1 aya-2 aya-3"
+    "aya-4 aya-5 aya-6"
+    "aya-7 aya-8 aya-9"
+    "aya-10 aya-11 aya-12"
+    "aya-13 aya-14 aya-15"
+    "aya-16 aya-17 aya-18"
+    "aya-19 aya-20 aya-21";
+
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .aya-1{grid-area: aya-1;}
+    .aya-2{grid-area: aya-2;}
+    .aya-3{grid-area: aya-3;}
+    .aya-4{grid-area: aya-4;}
+    .aya-5{grid-area: aya-5;}
+    .aya-6{grid-area: aya-6;}
+    .aya-7{grid-area: aya-7;}
+    .aya-8{grid-area: aya-8;}
+    .aya-9{grid-area: aya-9;}
+    .aya-10{grid-area: aya-10;}
+    .aya-11{grid-area: aya-11;}
+    .aya-12{grid-area: aya-12;}
+    .aya-13{grid-area: aya-13;}
+    .aya-14{grid-area: aya-14;}
+    .aya-15{grid-area: aya-15;}
+    .aya-16{grid-area: aya-16;}
+    .aya-17{grid-area: aya-17;}
+    .aya-18{grid-area: aya-18;}
+    .aya-19{grid-area: aya-19;}
+    .aya-20{grid-area: aya-20;}
+    .aya-21{grid-area: aya-21;}
+}

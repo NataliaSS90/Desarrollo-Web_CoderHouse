@@ -14,6 +14,11 @@ body{
 
 /*header*/
 header{
+    .banner{
+        background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
+    background-size: cover;
+    background-position: center;
+    }
     img {
         width: 350px;
     }
@@ -36,36 +41,55 @@ header{
         text-decoration-line: none;
         font-weight: 600;
     }
-    .banner{
-        background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
-    background-size: cover;
-    background-position: center;
-    }
+    
 }
 
 /*main*/
 main{
-    article{
-        height: 1000px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
     h1, h2{
         text-align: center;
         font-style: italic;
         font-weight: 600;
         margin: 30px 0;
         text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
-        color: rgb(42, 19, 15)
+        color: rgb(73, 35, 34)
+    }
+    h3{
+        color: rgb(151, 41, 67);
+        text-decoration-line: overline;
+        text-align: center;
+        margin: 30px 0;
+    }
+    h4{
+    padding: 0px 80px;
+    }
+    p{
+    padding: 0px 80px;
+    color: rgb(50, 27, 23)
     }
 }
 
 
+/* footer */
+.footer-text{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14a6dc;
+    height: 100px;
+}
 
 
 
+/* mediaQ header*/
 
-
-
-/*footer*/
+@media (max-width:500px){
+    .navbar-nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+        
+}

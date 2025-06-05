@@ -1,0 +1,552 @@
+/* main personajes */
+//personaje-nausicaa
+.personaje-nausicaa{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas: 
+    "pNDVDV-15 pNDVDV-15 ptnausicaa"
+    "pNDVDV-15 pNDVDV-15 ptxtnausicaa"
+    "pNDVDV-15 pNDVDV-15 pNDVDV-16"
+    "pNDVDV-9 pNDVDV-8 pNDVDV-12";
+
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 150px 300px 700px 280px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .ptnausicaa{grid-area: ptnausicaa;}
+    .pNDVDV-15{grid-area: pNDVDV-15;}
+    .ptxtnausicaa{grid-area: ptxtnausicaa;}
+    .pNDVDV-16{grid-area: pNDVDV-16;}
+    .pNDVDV-1{grid-area: pNDVDV-1;}
+    .pNDVDV-9{grid-area: pNDVDV-9;}
+    .pNDVDV-17{grid-area: pNDVDV-17;}
+    .pNDVDV-8{grid-area: pNDVDV-8;}
+    .pNDVDV-12{grid-area: pNDVDV-12;}
+}
+
+//personaje-sheeta
+.personaje-sheeta{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "ptsheeta pECEEC-11 pECEEC-11"
+    "ptxtsheeta pECEEC-11 pECEEC-11"
+    "pECEEC-19 pECEEC-19 pECEEC-17"
+    "pECEEC-19 pECEEC-19 pECEEC-18"
+    "pECEEC-19 pECEEC-19 pECEEC-22";
+
+    grid-template-columns: 30% 15% 45%;
+    grid-template-rows: 150px 400px repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsheeta{grid-area: ptsheeta;}
+    .ptxtsheeta{grid-area: ptxtsheeta;}
+    .pECEEC-11{grid-area: pECEEC-11;}
+    .pECEEC-19{grid-area: pECEEC-19;}
+    .pECEEC-17{grid-area: pECEEC-17;}
+    .pECEEC-18{grid-area: pECEEC-18;}
+    .pECEEC-22{grid-area: pECEEC-22;}
+}
+
+//personaje-seita
+.personaje-seita{
+    img{
+        width: 90%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "ptseita pLTDLL-15"
+    "ptxtseita pLTDLL-15"
+    "pLTDLL-18 pLTDLL-16"
+    "pLTDLL-19 pLTDLL-17";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 200px) repeat(2, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptseita{grid-area: ptseita;}
+    .ptxtseita{grid-area: ptxtseita;}
+    .pLTDLL-15{grid-area: pLTDLL-15;}
+    .pLTDLL-18{grid-area: pLTDLL-18;}
+    .pLTDLL-16{grid-area: pLTDLL-16;}
+    .pLTDLL-19{grid-area: pLTDLL-19;}
+    .pLTDLL-17{grid-area: pLTDLL-17;}
+}
+
+//Setsuko
+.personaje-setsuko{
+    img{
+        width: 90%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "ptsetsuko pLTDLL-5"
+    "ptxtsetsuko pLTDLL-5"
+    "pLTDLL-16 pLTDLL-18"
+    "pLTDLL-16 pLTDLL-19"
+    "pLTDLL-16 pLTDLL-17";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 150px) 280px repeat(2, 300px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsetsuko{grid-area: ptsetsuko;}
+    .ptxtsetsuko{grid-area: ptxtsetsuko;}
+    .pLTDLL-5{grid-area: pLTDLL-5;}
+    .pLTDLL-16{grid-area: pLTDLL-16;}
+    .pLTDLL-18{grid-area: pLTDLL-18;}
+    .pLTDLL-19{grid-area: pLTDLL-19;}
+    .pLTDLL-17{grid-area: pLTDLL-17;}
+}
+
+//personaje-totoro
+.personaje-totoro{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pMVT-6 pttotoro"
+    "pMVT-6 ptxttotoro"
+    "pMVT-6 pMVT-18"
+    "pMVT-6 pMVT-15"
+    "pMVT-6 pMVT-16";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 150px 180px repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .pttotoro{grid-area: pttotoro;}
+    .ptxttotoro{grid-area: ptxttotoro;}
+    .pMVT-6{grid-area: pMVT-6;}
+    .pMVT-18{grid-area: pMVT-18;}
+    .pMVT-15{grid-area: pMVT-15;}
+    .pMVT-16{grid-area: pMVT-16;}
+}
+
+//personaje-satsuki
+.personaje-satsuki{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 150px 200px repeat(2, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsatsuki{grid-area: ptsatsuki;}
+    .ptxtsatsuki{grid-area: ptxtsatsuki;}
+    .pMVT-19{grid-area: pMVT-19;}
+    .pMVT-3{grid-area: pMVT-3;}
+    .pMVT-4{grid-area: pMVT-4;}
+    .pMVT-21{grid-area: pMVT-21;}
+}
+
+//personaje-mei
+.personaje-mei{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pMVT-26 ptmei"
+    "pMVT-26 ptxtmei"
+    "pMVT-26 pMVT-23 "
+    "pMVT-20 pMVT-24" 
+    "pMVT-5 pMVT-25";
+
+    grid-template-columns: repeat(2, 45%) ;
+    grid-template-rows: 150px 200px repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptmei{grid-area: ptmei;}
+    .ptxtmei{grid-area: ptxtmei;}
+    .pMVT-26{grid-area: pMVT-26;}
+    .pMVT-23{grid-area: pMVT-23;}
+    .pMVT-20{grid-area: pMVT-20;}
+    .pMVT-24{grid-area: pMVT-24;}
+    .pMVT-25{grid-area: pMVT-25;}
+    .pMVT-5{grid-area: pMVT-5;}
+}
+
+//personaje-kiki
+.personaje-kiki{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pKEAD-16 ptkiki"
+    "pKEAD-16 ptxtkiki"
+    "pKEAD-19 pKEAD-22"
+    "pKEAD-20 pKEAD-18";
+
+    grid-template-columns: repeat(2, 45%) ;
+    grid-template-rows: 150px 200px repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptkiki{grid-area: ptkiki;}
+    .ptxtkiki{grid-area: ptxtkiki;}
+    .pKEAD-16{grid-area: pKEAD-16;}
+    .pKEAD-19{grid-area: pKEAD-19;}
+    .pKEAD-22{grid-area: pKEAD-22;}
+    .pKEAD-20{grid-area: pKEAD-20;}
+    .pKEAD-18{grid-area: pKEAD-18;}
+}
+
+//personaje-san
+.personaje-san{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pLPM-21 ptsan"
+    "pLPM-21 ptxtsan"
+    "pLPM-7 pLPM-6"
+    "pLPM-7 pLPM-19"
+    "pLPM-7 pLPM-23"
+    "pLPM-7 pLPM-20";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 150px) repeat(4, 300px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsan{grid-area: ptsan;}
+    .ptxtsan{grid-area: ptxtsan;}
+    .pLPM-21{grid-area: pLPM-21;}
+    .pLPM-6{grid-area: pLPM-6;}
+    .pLPM-19{grid-area: pLPM-19;}
+    .pLPM-23{grid-area: pLPM-23;}
+    .pLPM-7{grid-area: pLPM-7;}
+    .pLPM-20{grid-area: pLPM-20;}
+}
+
+//personaje-ashitaka
+.personaje-ashitaka{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pLPM-28 ptashitaka"
+    "pLPM-28 ptxtashitaka"
+    "pLPM-28 pLPM-27"
+    "pLPM-26 pLPM-16";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 150px) repeat(2, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptashitaka{grid-area: ptashitaka;}
+    .ptxtashitaka{grid-area: ptxtashitaka;}
+    .pLPM-28{grid-area: pLPM-28;}
+    .pLPM-24{grid-area: pLPM-24;}
+    .pLPM-27{grid-area: pLPM-27;}
+    .pLPM-26{grid-area: pLPM-26;}
+    .pLPM-16{grid-area: pLPM-16;}
+}
+
+//personaje-sinCara
+.personaje-sinCara{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "ptsinCara pEVDC-24"
+    "ptxtsinCara pEVDC-24"
+    "pEVDC-13 pEVDC-23"
+    "pEVDC-14 pEVDC-16";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 150px 200px repeat(2, 330px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsinCara{grid-area: ptsinCara;}
+    .ptxtsinCara{grid-area: ptxtsinCara;}
+    .pEVDC-24{grid-area: pEVDC-24;}
+    .pEVDC-13{grid-area: pEVDC-13;}
+    .pEVDC-23{grid-area: pEVDC-23;}
+    .pEVDC-14{grid-area: pEVDC-14;}
+    .pEVDC-16{grid-area: pEVDC-16;}
+}
+
+//personaje-chihiro
+.personaje-chihiro{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "ptchihiro pEVDC-0"
+    "ptxtchihiro pEVDC-0"
+    "pEVDC-6 pEVDC-0"
+    "pEVDC-22 pEVDC-19"
+    "pEVDC-22 pEVDC-21"
+    "pEVDC-22 pEVDC-20";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 150px 200px repeat(4, 330px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptchihiro{grid-area: ptchihiro;}
+    .ptxtchihiro{grid-area: ptxtchihiro;}
+    .pEVDC-0{grid-area: pEVDC-0;}
+    .pEVDC-6{grid-area: pEVDC-6;}
+    .pEVDC-22{grid-area: pEVDC-22;}
+    .pEVDC-19{grid-area: pEVDC-19;}
+    .pEVDC-21{grid-area: pEVDC-21;}
+    .pEVDC-20{grid-area: pEVDC-20;}
+}
+
+//personaje-haku
+.personaje-haku{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pEVDC-26 pthaku"
+    "pEVDC-26 ptxthowl"
+    "pEVDC-26 pEVDC-27"
+    "pEVDC-25 pEVDC-18";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 150px 200px repeat(2, 330px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .pthaku{grid-area: pthaku;}
+    .ptxthowl{grid-area: ptxthowl;}
+    .pEVDC-26{grid-row: pEVDC-26;}
+    .pEVDC-27{grid-area: pEVDC-27;}
+    .pEVDC-25{grid-area: pEVDC-25;}
+    .pEVDC-18{grid-area: pEVDC-18;}
+}
+
+//personaje-howl
+.personaje-howl{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pthowl pEICV-38"
+    "ptxthowl pEICV-38"
+    "pEICV-26 pEICV-23"
+    "pEICV-26 pEICV-28"
+    "pEICV-26 pEICV-29"
+    "pEICV-40 pEICV-39";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 150px 200px 400px repeat(2, 360px) repeat(2, 1000px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .pthowl{grid-area: pthowl;}
+    .ptxthowl{grid-area: ptxthowl;}
+    .pEICV-23{grid-area: pEICV-23;}
+    .pEICV-38{grid-area: pEICV-38;}
+    .pEICV-26{grid-area: pEICV-26;}
+    .pEICV-28{grid-area: pEICV-28;}
+    .pEICV-29{grid-area: pEICV-29;}
+    .pEICV-40{grid-area: pEICV-40;}
+    .pEICV-39{grid-area: pEICV-39;}
+}
+
+//personaje-sophie
+.personaje-sophie{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "ptsophie pEICV-41"
+    "ptxtsophie pEICV-41"
+    "pEICV-32 pEICV-41"
+    "pEICV-34 pEICV-33"
+    "pEICV-34 pEICV-24"
+    "pEICV-34 pEICV-35";
+
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 100px 200px 400px repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsophie{grid-area: ptsophie;}
+    .ptxtsophie{grid-area: ptxtsophie;} 
+    .pEICV-41{grid-area: pEICV-41;}
+    .pEICV-32{grid-area: pEICV-32;}
+    .pEICV-34{grid-area: pEICV-34;}
+    .pEICV-33{grid-area: pEICV-33;}
+    .pEICV-24{grid-area: pEICV-24;}
+    .pEICV-35{grid-area: pEICV-35;}
+}
+
+//personaje-calcifer
+.personaje-calcifer{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pEICV-15 ptcalcifer pEICV-16"
+    "pEICV-15 ptxtcalcifer pEICV-16"
+    "pEICV-14 pEICV-14 pEICV-13"
+    "pEICV-14 pEICV-14 pEICV-17";
+
+    grid-template-columns: 30% 25% 35%;
+    grid-template-rows: 110px 230px 340px 400px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptcalcifer{grid-area: ptcalcifer;}
+    .ptxtcalcifer{grid-area: ptxtcalcifer;}
+    .pEICV-17{grid-area: pEICV-17;}
+    .pEICV-14{grid-area: pEICV-14;}
+    .pEICV-13{grid-area: pEICV-13;}
+    .pEICV-15{grid-area: pEICV-15;}
+    .pEICV-16{grid-area: pEICV-16;}
+}
+
+//personaje-ponyo
+.personaje-ponyo{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pP-26 ptponyo"
+    "pP-26 ptxtponyo"
+    "pP-32 pP-4"
+    "pP-32 pP-27"
+    "pP-32 pP-12";
+
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 110px 270px repeat(3, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptponyo{grid-area: ptponyo;}
+    .ptxtponyo{grid-area: ptxtponyo;}
+    .pP-26{grid-area: pP-26;}
+    .pP-32{grid-area: pP-32;}
+    .pP-4{grid-area: pP-4;}
+    .pP-27{grid-area: pP-27;}
+    .pP-12{grid-area: pP-12;}
+}
+
+//personaje-sosuke
+.personaje-sosuke{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    display: grid;
+    grid-template-areas:
+    "pP-30 ptsosuke"
+    "pP-30 ptxtsosuke"
+    "pP-30 pP-29"
+    "pP-8 pP-33" 
+    "pP-9 pP-33";
+
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 110px 200px 500px repeat(2, 350px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    .ptsosuke{grid-area: ptsosuke;}
+    .ptxtsosuke{grid-area: ptxtsosuke;}
+    .pP-29{grid-area: pP-29;}
+    .pP-30{grid-area: pP-30;}
+    .pP-8{grid-area: pP-8;}
+    .pP-9{grid-area: pP-9;}
+    .pP-33{grid-area:pP-33;}
+}
+
