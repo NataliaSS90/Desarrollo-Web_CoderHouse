@@ -90,57 +90,59 @@
     }
 }
 
+
+
 /*animación reel de imágenes*/
-.wrapper{
-    img{
-        display: block;
-        max-width: 100%;
-    }
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-gap: 20px;
-    overflow: hidden;
-    height: 100vh;
-    margin: 0 30px;
-    .gallery {
-        overflow: scroll;
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
-    }
-    .gallery__img {
-        scroll-snap-align: start;
-        margin-bottom: 10px;
-        min-height: 100vh;
-        object-fit: cover;
-    }
-    .lil-nav {
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
 
-    .lil-nav a {
-        height: 200px;
-        display: flex;
-        margin-bottom: 10px;
-    }
-
-    .lil-nav__img {
-        object-fit: cover;
-        filter: saturate(0);
-        transition: 0.3s ease all;
-    }
-
-    .lil-nav__img:hover {
-        transform: scale(1.05);
-        filter: saturate(1);
-    }
+img {
+  display: block;
+  max-width: 100%;
 }
 
-/* mediaQ main index*/
-@media (max-width:500px){
-    .card-animation{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
+.wrapper {
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 10px;
 }
+
+.gallery {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+}
+
+.gallery__img {
+  scroll-snap-align: start;
+  margin-bottom: 10px;
+  min-width: 100vw;
+  object-fit: cover;
+}
+
+.lil-nav {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  grid-row-start: 2;
+
+  a {
+    display: flex;
+    min-width: 45vw;
+    margin-right: 10px;
+  }
+}
+
+.lil-nav__img {
+  object-fit: cover;
+  filter: saturate(0);
+  transition: 0.3s ease all;
+
+  &:hover {
+    transform: scale(1.05);
+    filter: saturate(1);
+  }
+}
+

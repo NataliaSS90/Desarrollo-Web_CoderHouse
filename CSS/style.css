@@ -60,7 +60,7 @@ nav{
 /**/
 main p{
     padding: 0px 80px;
-    color: rgb(50, 27, 23)
+    color: #2f1814
 }
 
 h3{
@@ -73,14 +73,16 @@ h1, h2{
     font-weight: 600;
     margin: 30px 0;
     text-shadow: -2px 2px 6px rgba(0,0,0,0.3);
-    color: rgb(121, 40, 37)
+    color: #522020
 }
+/* color: #bb3454;*/
 h3{
-    color: rgb(48, 105, 35);
+    color: #bb3454;
     text-decoration-line: overline;
 }
 h4{
     padding: 0px 80px;
+    color: #306923;
 }
 
 /**/
@@ -103,7 +105,7 @@ h4{
 
 
 
-/*aqui empieza la animación de las cards*/
+/*animación de las cards*/
 .card-animation{
     text-align: center;
     display: flex;
@@ -182,7 +184,8 @@ h4{
 }
 
 
-/* aqui empieza la animación del reel de imágenes*/
+/*animación reel de imágenes*/
+
 .wrapper img{
   display: block;
   max-width: 100%;
@@ -1360,19 +1363,15 @@ h4{
 /**/
 /* mediaQ header*/
 
-@media (max-width:500px){
-    .navbar-nav{
-        flex-direction: row;
-        justify-content: center;
-    }
-        
-}
-
-/* mediaQ main index*/
-@media (max-width:500px){
+@media screen (max-width: 500px){
     .card-animation{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
+
+    .wrapper{
+        
+    }
+
 }

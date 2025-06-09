@@ -70,27 +70,3 @@ main{
     }
 }
 
-
-/* footer */
-.footer-text{
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #14a6dc;
-    height: 100px;
-}
-
-
-
-/* mediaQ header*/
-
-@media (max-width:500px){
-    .navbar-nav{
-        flex-direction: row;
-        justify-content: center;
-    }
-        
-}

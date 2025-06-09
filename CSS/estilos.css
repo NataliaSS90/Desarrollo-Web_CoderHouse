@@ -49,41 +49,23 @@ main h1, main h2 {
   font-weight: 600;
   margin: 30px 0;
   text-shadow: -2px 2px 6px rgba(0, 0, 0, 0.3);
-  color: rgb(73, 35, 34);
+  color: #522020;
 }
 main h3 {
-  color: rgb(151, 41, 67);
+  color: #bb3454;
   text-decoration-line: overline;
   text-align: center;
   margin: 30px 0;
 }
 main h4 {
   padding: 0px 80px;
+  color: #306923;
 }
 main p {
   padding: 0px 80px;
-  color: rgb(50, 27, 23);
+  color: #2f1814;
 }
 
-/* footer */
-.footer-text {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: 600;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #14a6dc;
-  height: 100px;
-}
-
-/* mediaQ header*/
-@media (max-width: 500px) {
-  .navbar-nav {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
 /*main index*/
 .arquitectura-emocional {
   display: flex;
@@ -167,56 +149,56 @@ main p {
 }
 
 /*animación reel de imágenes*/
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  grid-gap: 20px;
-  overflow: hidden;
-  height: 100vh;
-  margin: 0 30px;
-}
-.wrapper img {
+img {
   display: block;
   max-width: 100%;
 }
-.wrapper .gallery {
-  overflow: scroll;
+
+.wrapper {
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.gallery {
+  overflow-x: scroll;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  display: flex;
 }
-.wrapper .gallery__img {
+
+.gallery__img {
   scroll-snap-align: start;
   margin-bottom: 10px;
-  min-height: 100vh;
+  min-width: 100vw;
   object-fit: cover;
 }
-.wrapper .lil-nav {
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-.wrapper .lil-nav a {
-  height: 200px;
+
+.lil-nav {
+  overflow-x: scroll;
+  overflow-y: hidden;
   display: flex;
-  margin-bottom: 10px;
+  grid-row-start: 2;
 }
-.wrapper .lil-nav__img {
+.lil-nav a {
+  display: flex;
+  min-width: 45vw;
+  margin-right: 10px;
+}
+
+.lil-nav__img {
   object-fit: cover;
   filter: saturate(0);
   transition: 0.3s ease all;
 }
-.wrapper .lil-nav__img:hover {
+.lil-nav__img:hover {
   transform: scale(1.05);
   filter: saturate(1);
 }
 
-/* mediaQ main index*/
-@media (max-width: 500px) {
-  .card-animation {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
 /*main peliculas*/
 .nausicaa {
   display: grid;
@@ -1561,6 +1543,59 @@ main p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* footer */
+.footer-text {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14a6dc;
+  height: 100px;
+}
+
+/* mediaQ*/
+/*Carrusel de imágenes*/
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery {
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery__img {
+    min-width: auto;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lil-nav {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    grid-row-start: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .lil-nav a {
+    margin-bottom: 10px;
+    min-height: 200px;
+    min-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
