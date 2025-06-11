@@ -209,10 +209,11 @@ img {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .nausicaa img {
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 .nausicaa iframe {
   width: 80%;
@@ -250,11 +251,12 @@ img {
   display: grid;
   grid-template-areas: "tcastillo-cielo tcastillo-cielo" "ECEEC-0 txt1castillo-cielo" "txt3castillo-cielo vcastillo-cielo" "txt2castillo-cielo vcastillo-cielo" "ECEEC-8 ECEEC-12" "ECEEC-9 ECEEC-15";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 310px 60px 250px repeat(2, 320px);
+  grid-template-rows: 120px 360px 60px 250px 390px 370px;
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .castillo-cielo img {
   width: 100%;
@@ -301,6 +303,7 @@ img {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .luciernagas img {
   width: 100%;
@@ -346,11 +349,12 @@ img {
   display: grid;
   grid-template-areas: "ttotoro ttotoro" "MVT-0 MVT-0" "MVT-7 txt1totoro" "MVT-7 vtotoro" "MVT-7 txt2totoro" "MVT-7 txt3totoro" "MVT-7 txt4totoro" "MVT-7 txt5totoro" "MVT-9 MVT-10";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 640px 200px 370px 30px repeat(2, 100px) 180px 350px;
+  grid-template-rows: 120px 660px 200px 370px 30px repeat(2, 100px) 180px 390px;
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .totoro img {
   width: 100%;
@@ -388,11 +392,12 @@ img {
   display: grid;
   grid-template-areas: "tkiki tkiki" "KEAD-8 KEAD-8" "txt1kiki vkiki" "txt3kiki vkiki" "txt2kiki vkiki" "KEAD-9 KEAD-10" "KEAD-15 KEAD-17";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 540px 200px 30px 200px repeat(2, 340px);
+  grid-template-rows: 120px 620px 200px 30px 200px repeat(2, 340px);
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .kiki img {
   width: 100%;
@@ -434,11 +439,12 @@ img {
   display: grid;
   grid-template-areas: "tmononoke tmononoke" "LPM-0 txt1mononoke" "LPM-0 vmononoke" "LPM-0 txt3mononoke" "LPM-0 txt2mononoke" "LPM-4 LPM-12" "LPM-17 LPM-12";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 200px 350px 30px 220px repeat(2, 400px);
+  grid-template-rows: 120px 200px 350px 50px 250px repeat(2, 400px);
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .mononoke img {
   width: 100%;
@@ -477,11 +483,12 @@ img {
   display: grid;
   grid-template-areas: "tchihiro tchihiro" "EVDC-8 txt1chihiro" "EVDC-8 txt2chihiro" "EVDC-8 vchihiro" "EVDC-8 txt5chihiro" "EVDC-8 txt3chihiro" "EVDC-8 txt4chihiro" "EVDC-21 EVDC-14" "EVDC-16 EVDC-17";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px repeat(2, 340px);
+  grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px 380px 390px;
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .chihiro img {
   width: 100%;
@@ -532,11 +539,12 @@ img {
   display: grid;
   grid-template-areas: "thowl thowl" "EICV-4 EICV-4" "EICV-2 txt1howl" "EICV-2 vhowl" "EICV-2 txt2howl" "EICV-2 txt3howl" "EICV-2 txt4howl" "EICV-27 EICV-47" "EICV-8 EICV-15";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 600px 180px 350px 30px repeat(2, 120px) repeat(2, 350px);
+  grid-template-rows: 120px 680px 200px 350px 60px repeat(2, 120px) repeat(2, 390px);
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .howl img {
   width: 100%;
@@ -593,11 +601,12 @@ img {
   display: grid;
   grid-template-areas: "tponyo tponyo" "P-15 P-15" "txt1ponyo P-16" "vponyo P-16" "txt4ponyo P-16" "txt2ponyo P-16" "txt3ponyo P-16" "P-17 P-13" "P-10 P-14";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 550px 250px 350px 30px 150px 180px 380px 320px;
+  grid-template-rows: 120px 640px 250px 350px 30px 150px 180px 480px 380px;
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .ponyo img {
   width: 90%;
@@ -644,15 +653,20 @@ img {
   display: grid;
   grid-template-areas: "tamapolas tamapolas" "LCDLA-15 LCDLA-15" "txt1amapolas vamapolas" "txt4amapolas vamapolas" "txt2amapolas vamapolas" "txt3amapolas vamapolas" "LCDLA-10 LCDLA-11" "LCDLA-10 LCDLA-12";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 600px 250px 40px 70px 200px repeat(2, 320px);
+  grid-template-rows: 120px 700px 200px 50px 100px 200px repeat(2, 400px);
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .amapolas img {
   width: 100%;
   height: 100%;
+}
+.amapolas .iframe {
+  width: 100%;
+  height: 70%;
 }
 .amapolas .tamapolas {
   grid-area: tamapolas;
@@ -690,15 +704,20 @@ img {
   display: grid;
   grid-template-areas: "tviento tviento" "SLEV-12 SLEV-12" "vviento txt1viento" "vviento txt5viento" "vviento txt2viento" "vviento txt3viento" "vviento txt4viento" "SLEV-13 SLEV-7" "SLEV-9 SLEV-8";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 500px 200px 30px repeat(3, 100px) repeat(2, 330px);
+  grid-template-rows: 120px 700px 200px 30px repeat(3, 100px) repeat(2, 400px);
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .viento img {
   width: 100%;
   height: 100%;
+}
+.viento .iframe {
+  width: 100%;
+  height: 70%;
 }
 .viento .tviento {
   grid-area: tviento;
@@ -741,11 +760,12 @@ img {
   display: grid;
   grid-template-areas: "tchico-garza tchico-garza" "ECYLG-1 txt1chico-garza" "ECYLG-1 vchico-garza" "ECYLG-1 txt3chico-garza" "ECYLG-1 txt2chico-garza" "ECYLG-9 ECYLG-13" "ECYLG-11 ECYLG-13";
   grid-template-columns: repeat(2, 40%);
-  grid-template-rows: 120px 120px 380px 40px 200px 280px 280px;
+  grid-template-rows: 150px 180px 380px 40px 200px 420px 400px;
   gap: 20px;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 .chico-garza img {
   width: 90%;
@@ -779,12 +799,13 @@ img {
 /* main personajes */
 .personaje-nausicaa {
   display: grid;
-  grid-template-areas: "pNDVDV-15 pNDVDV-15 ptnausicaa" "pNDVDV-15 pNDVDV-15 ptxtnausicaa" "pNDVDV-15 pNDVDV-15 pNDVDV-16" "pNDVDV-9 pNDVDV-8 pNDVDV-12";
+  grid-template-areas: "pNDVDV-15 ptnausicaa pNDVDV-16" "pNDVDV-15 ptxtnausicaa pNDVDV-16" "pNDVDV-9 pNDVDV-8 pNDVDV-12";
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 150px 300px 700px 280px;
+  grid-template-rows: 300px 480px 320px;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
 }
 .personaje-nausicaa img {
   width: 100%;
@@ -820,9 +841,9 @@ img {
 
 .personaje-sheeta {
   display: grid;
-  grid-template-areas: "ptsheeta pECEEC-11 pECEEC-11" "ptxtsheeta pECEEC-11 pECEEC-11" "pECEEC-19 pECEEC-19 pECEEC-17" "pECEEC-19 pECEEC-19 pECEEC-18" "pECEEC-19 pECEEC-19 pECEEC-22";
-  grid-template-columns: 30% 15% 45%;
-  grid-template-rows: 150px 400px repeat(3, 350px);
+  grid-template-areas: "pECEEC-11 pECEEC-11 ptsheeta" "pECEEC-11 pECEEC-11 ptxtsheeta" "pECEEC-19 pECEEC-19 pECEEC-17" "pECEEC-19 pECEEC-19 pECEEC-18" "pECEEC-19 pECEEC-19 pECEEC-22";
+  grid-template-columns: 35% 10% 45%;
+  grid-template-rows: 150px 400px repeat(3, 400px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -856,16 +877,16 @@ img {
 
 .personaje-seita {
   display: grid;
-  grid-template-areas: "ptseita pLTDLL-15" "ptxtseita pLTDLL-15" "pLTDLL-18 pLTDLL-16" "pLTDLL-19 pLTDLL-17";
+  grid-template-areas: "ptseita pLTDLL-15" "ptxtseita pLTDLL-15" "pLTDLL-9 pLTDLL-2" "pLTDLL-12 pLTDLL-6";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: repeat(2, 200px) repeat(2, 350px);
+  grid-template-rows: 200px 300px 480px 420px;
   gap: 20px;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
 }
 .personaje-seita img {
-  width: 90%;
+  width: 100%;
   height: 100%;
 }
 .personaje-seita .ptseita {
@@ -877,24 +898,24 @@ img {
 .personaje-seita .pLTDLL-15 {
   grid-area: pLTDLL-15;
 }
-.personaje-seita .pLTDLL-18 {
-  grid-area: pLTDLL-18;
+.personaje-seita .pLTDLL-9 {
+  grid-area: pLTDLL-9;
 }
-.personaje-seita .pLTDLL-16 {
-  grid-area: pLTDLL-16;
+.personaje-seita .pLTDLL-6 {
+  grid-area: pLTDLL-6;
 }
-.personaje-seita .pLTDLL-19 {
-  grid-area: pLTDLL-19;
+.personaje-seita .pLTDLL-12 {
+  grid-area: pLTDLL-12;
 }
-.personaje-seita .pLTDLL-17 {
-  grid-area: pLTDLL-17;
+.personaje-seita .pLTDLL-2 {
+  grid-area: pLTDLL-2;
 }
 
 .personaje-setsuko {
   display: grid;
-  grid-template-areas: "ptsetsuko pLTDLL-5" "ptxtsetsuko pLTDLL-5" "pLTDLL-16 pLTDLL-18" "pLTDLL-16 pLTDLL-19" "pLTDLL-16 pLTDLL-17";
+  grid-template-areas: "ptsetsuko pLTDLL-5" "ptxtsetsuko pLTDLL-5" "pLTDLL-16 pLTDLL-19" "pLTDLL-16 pLTDLL-17";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: repeat(2, 150px) 280px repeat(2, 300px);
+  grid-template-rows: 150px 200px repeat(2, 380px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -916,9 +937,6 @@ img {
 .personaje-setsuko .pLTDLL-16 {
   grid-area: pLTDLL-16;
 }
-.personaje-setsuko .pLTDLL-18 {
-  grid-area: pLTDLL-18;
-}
 .personaje-setsuko .pLTDLL-19 {
   grid-area: pLTDLL-19;
 }
@@ -930,7 +948,7 @@ img {
   display: grid;
   grid-template-areas: "pMVT-6 pttotoro" "pMVT-6 ptxttotoro" "pMVT-6 pMVT-18" "pMVT-6 pMVT-15" "pMVT-6 pMVT-16";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 180px repeat(3, 350px);
+  grid-template-rows: 120px 180px repeat(3, 420px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -961,7 +979,7 @@ img {
 
 .personaje-satsuki {
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 200px repeat(2, 350px);
+  grid-template-rows: 150px 200px repeat(2, 400px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -994,7 +1012,7 @@ img {
   display: grid;
   grid-template-areas: "pMVT-26 ptmei" "pMVT-26 ptxtmei" "pMVT-26 pMVT-23 " "pMVT-20 pMVT-24" "pMVT-5 pMVT-25";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 200px repeat(3, 350px);
+  grid-template-rows: 150px 220px repeat(3, 420px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1033,7 +1051,7 @@ img {
   display: grid;
   grid-template-areas: "pKEAD-16 ptkiki" "pKEAD-16 ptxtkiki" "pKEAD-19 pKEAD-22" "pKEAD-20 pKEAD-18";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 200px repeat(3, 350px);
+  grid-template-rows: 120px 300px repeat(2, 420px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1067,9 +1085,9 @@ img {
 
 .personaje-san {
   display: grid;
-  grid-template-areas: "pLPM-21 ptsan" "pLPM-21 ptxtsan" "pLPM-7 pLPM-6" "pLPM-7 pLPM-19" "pLPM-7 pLPM-23" "pLPM-7 pLPM-20";
+  grid-template-areas: "pLPM-21 ptsan" "pLPM-21 ptxtsan" "pLPM-7 pLPM-6" "pLPM-7 pLPM-19" "pLPM-7 pLPM-23";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: repeat(2, 150px) repeat(4, 300px);
+  grid-template-rows: 150px 250px repeat(3, 420px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1100,15 +1118,12 @@ img {
 .personaje-san .pLPM-7 {
   grid-area: pLPM-7;
 }
-.personaje-san .pLPM-20 {
-  grid-area: pLPM-20;
-}
 
 .personaje-ashitaka {
   display: grid;
   grid-template-areas: "pLPM-28 ptashitaka" "pLPM-28 ptxtashitaka" "pLPM-28 pLPM-27" "pLPM-26 pLPM-16";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: repeat(2, 150px) repeat(2, 350px);
+  grid-template-rows: repeat(2, 150px) repeat(2, 420px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1144,7 +1159,7 @@ img {
   display: grid;
   grid-template-areas: "ptsinCara pEVDC-24" "ptxtsinCara pEVDC-24" "pEVDC-13 pEVDC-23" "pEVDC-14 pEVDC-16";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 200px repeat(2, 330px);
+  grid-template-rows: 150px 250px repeat(2, 420px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1180,7 +1195,7 @@ img {
   display: grid;
   grid-template-areas: "ptchihiro pEVDC-0" "ptxtchihiro pEVDC-0" "pEVDC-6 pEVDC-0" "pEVDC-22 pEVDC-19" "pEVDC-22 pEVDC-21" "pEVDC-22 pEVDC-20";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 200px repeat(4, 330px);
+  grid-template-rows: 150px 200px repeat(4, 400px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1250,9 +1265,9 @@ img {
 
 .personaje-howl {
   display: grid;
-  grid-template-areas: "pthowl pEICV-38" "ptxthowl pEICV-38" "pEICV-26 pEICV-23" "pEICV-26 pEICV-28" "pEICV-26 pEICV-29" "pEICV-40 pEICV-39";
+  grid-template-areas: "pthowl pEICV-38" "ptxthowl pEICV-38" "pEICV-26 pEICV-23" "pEICV-26 pEICV-28" "pEICV-26 pEICV-29";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 150px 200px 400px repeat(2, 360px) repeat(2, 1000px);
+  grid-template-rows: 150px 260px 400px repeat(2, 400px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1283,18 +1298,12 @@ img {
 .personaje-howl .pEICV-29 {
   grid-area: pEICV-29;
 }
-.personaje-howl .pEICV-40 {
-  grid-area: pEICV-40;
-}
-.personaje-howl .pEICV-39 {
-  grid-area: pEICV-39;
-}
 
 .personaje-sophie {
   display: grid;
   grid-template-areas: "ptsophie pEICV-41" "ptxtsophie pEICV-41" "pEICV-32 pEICV-41" "pEICV-34 pEICV-33" "pEICV-34 pEICV-24" "pEICV-34 pEICV-35";
   grid-template-columns: 50% 40%;
-  grid-template-rows: 100px 200px 400px repeat(3, 350px);
+  grid-template-rows: 100px 230px 450px repeat(3, 370px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1333,7 +1342,7 @@ img {
   display: grid;
   grid-template-areas: "pEICV-15 ptcalcifer pEICV-16" "pEICV-15 ptxtcalcifer pEICV-16" "pEICV-14 pEICV-14 pEICV-13" "pEICV-14 pEICV-14 pEICV-17";
   grid-template-columns: 30% 25% 35%;
-  grid-template-rows: 110px 230px 340px 400px;
+  grid-template-rows: 110px 240px 360px 450px;
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1369,7 +1378,7 @@ img {
   display: grid;
   grid-template-areas: "pP-26 ptponyo" "pP-26 ptxtponyo" "pP-32 pP-4" "pP-32 pP-27" "pP-32 pP-12";
   grid-template-columns: 50% 40%;
-  grid-template-rows: 110px 270px repeat(3, 350px);
+  grid-template-rows: 120px 320px repeat(3, 380px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1405,7 +1414,7 @@ img {
   display: grid;
   grid-template-areas: "pP-30 ptsosuke" "pP-30 ptxtsosuke" "pP-30 pP-29" "pP-8 pP-33" "pP-9 pP-33";
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 110px 200px 500px repeat(2, 350px);
+  grid-template-rows: 120px 240px 580px repeat(2, 400px);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -1539,10 +1548,13 @@ img {
   margin: 0 80px;
 }
 .soundtrack .concierto-ghibli-25años {
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.soundtrack .bibliografía {
+  margin-top: 100px;
 }
 
 /* footer */
@@ -1557,7 +1569,8 @@ img {
   height: 100px;
 }
 
-/* mediaQ*/
+/* index */
+/* video introductorio */
 /*Carrusel de imágenes*/
 @media screen and (min-width: 1200px) {
   .wrapper {

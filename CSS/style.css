@@ -83,6 +83,7 @@ h3{
 h4{
     padding: 0px 80px;
     color: #306923;
+    text-decoration: underline;
 }
 
 /**/
@@ -99,10 +100,6 @@ h4{
     margin-top: 30px;
     height: 460px;
     }
-
-
-
-
 
 
 /*animación de las cards*/
@@ -243,7 +240,7 @@ h4{
 
 .nausicaa img{
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 .nausicaa iframe{
     width: 80%;
@@ -260,11 +257,12 @@ h4{
     "NDVDV-11 NDVDV-4";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 70px 200px 250px 70px 150px 300px;
+    grid-template-rows: 70px 200px 250px 70px 150px 350px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tnausicaa{grid-area: tnausicaa;}
 .NDVDV-3{grid-area: NDVDV-3;}
@@ -293,11 +291,12 @@ h4{
     "ECEEC-9 ECEEC-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 310px 60px 250px repeat(2, 320px);
+    grid-template-rows: 120px 360px 60px 250px 390px 370px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tcastillo-cielo{grid-area: tcastillo-cielo;}
 .ECEEC-0{grid-area: ECEEC-0;}
@@ -339,6 +338,7 @@ h4{
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tluciernagas{grid-area: tluciernagas;}
 .LTDLL-1{grid-area: LTDLL-1;}
@@ -379,11 +379,12 @@ h4{
     "MVT-9 MVT-10";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 640px 200px 370px 30px repeat(2, 100px) 180px 350px;
+    grid-template-rows: 120px 660px 200px 370px 30px repeat(2, 100px) 180px 390px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .ttotoro{grid-area: ttotoro;}
 .MVT-0{grid-area: MVT-0;}
@@ -397,7 +398,7 @@ h4{
 
 /*kiki*/
 .kiki img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 .kiki{
@@ -412,11 +413,12 @@ h4{
     "KEAD-15 KEAD-17";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 540px 200px 30px 200px repeat(2,340px);
+    grid-template-rows: 120px 620px 200px 30px 200px repeat(2,340px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tkiki{grid-area: tkiki;}
 .KEAD-8{grid-area: KEAD-8;}
@@ -450,11 +452,12 @@ h4{
     "LPM-17 LPM-12";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 200px 350px 30px 220px repeat(2, 400px);
+    grid-template-rows: 120px 200px 350px 50px 250px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tmononoke{grid-area: tmononoke;}
 .LPM-0{grid-area: LPM-0;}
@@ -493,11 +496,12 @@ h4{
     "EVDC-16 EVDC-17";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px repeat(2, 340px);
+    grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px 380px 390px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
     
 }
 .tchihiro{grid-area: tchihiro;}
@@ -536,11 +540,12 @@ h4{
     "EICV-8 EICV-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 600px 180px 350px 30px repeat(2, 120px) repeat(2, 350px);
+    grid-template-rows: 120px 680px 200px 350px 60px repeat(2, 120px) repeat(2, 390px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .thowl{grid-area: thowl;}
 .EICV-4{grid-area: EICV-4;}
@@ -580,11 +585,12 @@ h4{
     "P-10 P-14";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 550px 250px 350px 30px 150px 180px 380px 320px;
+    grid-template-rows: 120px 640px 250px 350px 30px 150px 180px 480px 380px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tponyo{grid-area: tponyo;}
 .P-15{grid-area: P-15;}
@@ -605,6 +611,10 @@ h4{
     width: 100%;
     height: 100%;
 }
+.amapolas iframe{
+    width: 100%;
+    height: 70%;
+}
 .amapolas{
     display: grid;
     grid-template-areas:
@@ -618,11 +628,12 @@ h4{
     "LCDLA-10 LCDLA-12";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 600px 250px 40px 70px 200px repeat(2, 320px);
+    grid-template-rows: 120px 700px 200px 50px 100px 200px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tamapolas{grid-area: tamapolas;}
 .LCDLA-15{grid-area: LCDLA-15;}
@@ -644,6 +655,10 @@ h4{
     width: 100%;
     height: 100%;
 }
+.viento iframe{
+    width: 100%;
+    height: 70%;
+}
 .viento{
     display: grid;
     grid-template-areas:
@@ -658,11 +673,12 @@ h4{
     "SLEV-9 SLEV-8";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 500px 200px 30px repeat(3, 100px) repeat(2, 330px);
+    grid-template-rows: 120px 700px 200px 30px repeat(3, 100px) repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
 }
 .tviento{grid-area: tviento;}
@@ -681,7 +697,7 @@ h4{
 
 /*chico-garza*/
 .chico-garza img{
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 .chico-garza iframe{
@@ -699,11 +715,12 @@ h4{
     "ECYLG-11 ECYLG-13";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 120px 380px 40px 200px 280px 280px;
+    grid-template-rows: 150px 180px 380px 40px 200px 420px 400px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 }
 .tchico-garza{grid-area: tchico-garza;}
 .ECYLG-1{grid-area: ECYLG-1;}
@@ -725,16 +742,16 @@ h4{
 .personaje-nausicaa{
     display: grid;
     grid-template-areas: 
-    "pNDVDV-15 pNDVDV-15 ptnausicaa"
-    "pNDVDV-15 pNDVDV-15 ptxtnausicaa"
-    "pNDVDV-15 pNDVDV-15 pNDVDV-16"
+    "pNDVDV-15 ptnausicaa pNDVDV-16"
+    "pNDVDV-15 ptxtnausicaa pNDVDV-16"
     "pNDVDV-9 pNDVDV-8 pNDVDV-12";
 
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 150px 300px 700px 280px;
+    grid-template-rows: 300px 480px 320px;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 .ptnausicaa{grid-area: ptnausicaa;}
 .pNDVDV-15{grid-area: pNDVDV-15;}
@@ -754,14 +771,14 @@ h4{
 .personaje-sheeta{
     display: grid;
     grid-template-areas:
-    "ptsheeta pECEEC-11 pECEEC-11"
-    "ptxtsheeta pECEEC-11 pECEEC-11"
+    "pECEEC-11 pECEEC-11 ptsheeta"
+    "pECEEC-11 pECEEC-11 ptxtsheeta"
     "pECEEC-19 pECEEC-19 pECEEC-17"
     "pECEEC-19 pECEEC-19 pECEEC-18"
     "pECEEC-19 pECEEC-19 pECEEC-22";
 
-    grid-template-columns: 30% 15% 45%;
-    grid-template-rows: 150px 400px repeat(3, 350px);
+    grid-template-columns: 35% 10% 45%;
+    grid-template-rows: 150px 400px repeat(3, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -778,7 +795,7 @@ h4{
 
 /*personaje-seita*/
 .personaje-seita img{
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 .personaje-seita{
@@ -786,11 +803,11 @@ h4{
     grid-template-areas:
     "ptseita pLTDLL-15"
     "ptxtseita pLTDLL-15"
-    "pLTDLL-18 pLTDLL-16"
-    "pLTDLL-19 pLTDLL-17";
+    "pLTDLL-9 pLTDLL-2"
+    "pLTDLL-12 pLTDLL-6";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 200px) repeat(2, 350px);
+    grid-template-rows: 200px 300px 480px 420px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -799,10 +816,10 @@ h4{
 .ptseita{grid-area: ptseita;}
 .ptxtseita{grid-area: ptxtseita;}
 .pLTDLL-15{grid-area: pLTDLL-15;}
-.pLTDLL-18{grid-area: pLTDLL-18;}
-.pLTDLL-16{grid-area: pLTDLL-16;}
-.pLTDLL-19{grid-area: pLTDLL-19;}
-.pLTDLL-17{grid-area: pLTDLL-17;}
+.pLTDLL-9{grid-area: pLTDLL-9;}
+.pLTDLL-6{grid-area: pLTDLL-6;}
+.pLTDLL-12{grid-area: pLTDLL-12;}
+.pLTDLL-2{grid-area: pLTDLL-2;}
 
 
 /*personaje-Setsuko*/
@@ -815,12 +832,11 @@ h4{
     grid-template-areas:
     "ptsetsuko pLTDLL-5"
     "ptxtsetsuko pLTDLL-5"
-    "pLTDLL-16 pLTDLL-18"
     "pLTDLL-16 pLTDLL-19"
     "pLTDLL-16 pLTDLL-17";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 150px) 280px repeat(2, 300px);
+    grid-template-rows: 150px 200px repeat(2, 380px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -831,7 +847,6 @@ h4{
 .ptxtsetsuko{grid-area: ptxtsetsuko;}
 .pLTDLL-5{grid-area: pLTDLL-5;}
 .pLTDLL-16{grid-area: pLTDLL-16;}
-.pLTDLL-18{grid-area: pLTDLL-18;}
 .pLTDLL-19{grid-area: pLTDLL-19;}
 .pLTDLL-17{grid-area: pLTDLL-17;}
 
@@ -851,7 +866,7 @@ h4{
     "pMVT-6 pMVT-16";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 180px repeat(3, 350px);
+    grid-template-rows: 120px 180px repeat(3, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -879,7 +894,7 @@ h4{
     "pMVT-3 pMVT-21";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(2, 350px);
+    grid-template-rows: 150px 200px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -908,7 +923,7 @@ h4{
     "pMVT-5 pMVT-25";
 
     grid-template-columns: repeat(2, 45%) ;
-    grid-template-rows: 150px 200px repeat(3, 350px);
+    grid-template-rows: 150px 220px repeat(3, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -938,7 +953,7 @@ h4{
     "pKEAD-20 pKEAD-18";
 
     grid-template-columns: repeat(2, 45%) ;
-    grid-template-rows: 150px 200px repeat(3, 350px);
+    grid-template-rows: 120px 300px repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -965,11 +980,10 @@ h4{
     "pLPM-21 ptxtsan"
     "pLPM-7 pLPM-6"
     "pLPM-7 pLPM-19"
-    "pLPM-7 pLPM-23"
-    "pLPM-7 pLPM-20";
+    "pLPM-7 pLPM-23";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 150px) repeat(4, 300px);
+    grid-template-rows: 150px 250px repeat(3, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -982,7 +996,6 @@ h4{
 .pLPM-19{grid-area: pLPM-19;}
 .pLPM-23{grid-area: pLPM-23;}
 .pLPM-7{grid-area: pLPM-7;}
-.pLPM-20{grid-area: pLPM-20;}
 
 
 /*personaje-ashitaka*/
@@ -999,7 +1012,7 @@ h4{
     "pLPM-26 pLPM-16";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 150px) repeat(2, 350px);
+    grid-template-rows: repeat(2, 150px) repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1028,7 +1041,7 @@ h4{
     "pEVDC-14 pEVDC-16";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(2, 330px);
+    grid-template-rows: 150px 250px repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1059,7 +1072,7 @@ h4{
     "pEVDC-22 pEVDC-20";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(4, 330px);
+    grid-template-rows: 150px 200px repeat(4, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1089,7 +1102,7 @@ h4{
     "pEVDC-25 pEVDC-18";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(2, 330px);
+    grid-template-rows: 150px 200px repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1115,11 +1128,10 @@ h4{
     "ptxthowl pEICV-38"
     "pEICV-26 pEICV-23"
     "pEICV-26 pEICV-28"
-    "pEICV-26 pEICV-29"
-    "pEICV-40 pEICV-39";
+    "pEICV-26 pEICV-29";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px 400px repeat(2, 360px) repeat(2, 1000px);
+    grid-template-rows: 150px 260px 400px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1132,8 +1144,6 @@ h4{
 .pEICV-26{grid-area: pEICV-26;}
 .pEICV-28{grid-area: pEICV-28;}
 .pEICV-29{grid-area: pEICV-29;}
-.pEICV-40{grid-area: pEICV-40;}
-.pEICV-39{grid-area: pEICV-39;}
 
 
 /*personaje-sophie*/
@@ -1152,7 +1162,7 @@ h4{
     "pEICV-34 pEICV-35";
 
     grid-template-columns: 50% 40%;
-    grid-template-rows: 100px 200px 400px repeat(3, 350px);
+    grid-template-rows: 100px 230px 450px repeat(3, 370px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1183,7 +1193,7 @@ h4{
     "pEICV-14 pEICV-14 pEICV-17";
 
     grid-template-columns: 30% 25% 35%;
-    grid-template-rows: 110px 230px 340px 400px;
+    grid-template-rows: 110px 240px 360px 450px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1213,7 +1223,7 @@ h4{
     "pP-32 pP-12";
 
     grid-template-columns: 50% 40%;
-    grid-template-rows: 110px 270px repeat(3, 350px);
+    grid-template-rows: 120px 320px repeat(3, 380px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1244,7 +1254,7 @@ h4{
     "pP-9 pP-33";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 110px 200px 500px repeat(2, 350px);
+    grid-template-rows: 120px 240px 580px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -1282,7 +1292,7 @@ h4{
     "aya-10 aya-11 aya-12"
     "aya-13 aya-14 aya-15"
     "aya-16 aya-17 aya-18"
-    "aya-19 aya-20 aya-21";
+    "aya-20 aya-19 aya-21";
 
     gap: 20px;
     justify-content: center;
@@ -1335,10 +1345,13 @@ h4{
     margin: 0 80px;
 }
 .concierto-ghibli-25años{
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.bibliografía{
+    margin-top: 100px;
 }
 
 
@@ -1363,15 +1376,28 @@ h4{
 /**/
 /* mediaQ header*/
 
-@media screen (max-width: 500px){
+/*@media only screen and (max-width: 500px){
+    .arquitectura-emocional iframe{
+        height: 90%;
+    }
+}*/
+
+/*@media only screen and (max-width: 500px){
     .card-animation{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
-
-    .wrapper{
-        
+}*/
+@media screen (max-width:500px){
+    body{
+      background-color: #bb3454;
     }
-
+}
+body{
+    @media screen (max-width:500px){
+        background-color: #bb3454;
+    }
+ 
 }

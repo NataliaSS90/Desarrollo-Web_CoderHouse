@@ -4,7 +4,7 @@
 .nausicaa{
     img{
         width: 100%;
-        height: 90%;
+        height: 100%;
     }
 
     iframe{
@@ -27,6 +27,7 @@
         justify-content: center;
         justify-items: center;
         align-items: center;
+        margin-top: 50px;
     
     .tnausicaa{grid-area: tnausicaa;}
     .NDVDV-3{grid-area: NDVDV-3;}
@@ -55,11 +56,13 @@
     "ECEEC-9 ECEEC-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 310px 60px 250px repeat(2, 320px);
+    grid-template-rows: 120px 360px 60px 250px 390px 370px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
+
     .tcastillo-cielo{grid-area: tcastillo-cielo;}
     .ECEEC-0{grid-area: ECEEC-0;}
     .txt1castillo-cielo{grid-area: txt1castillo-cielo;}
@@ -100,6 +103,7 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tluciernagas{grid-area: tluciernagas;}
     .LTDLL-1{grid-area: LTDLL-1;}
@@ -142,11 +146,12 @@
     "MVT-9 MVT-10";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 640px 200px 370px 30px repeat(2, 100px) 180px 350px;
+    grid-template-rows: 120px 660px 200px 370px 30px repeat(2, 100px) 180px 390px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .ttotoro{grid-area: ttotoro;}
     .MVT-0{grid-area: MVT-0;}
@@ -176,11 +181,12 @@
     "KEAD-15 KEAD-17";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 540px 200px 30px 200px repeat(2,340px);
+    grid-template-rows: 120px 620px 200px 30px 200px repeat(2,340px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tkiki{grid-area: tkiki;}
     .KEAD-8{grid-area: KEAD-8;}
@@ -215,11 +221,12 @@
     "LPM-17 LPM-12";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 200px 350px 30px 220px repeat(2, 400px);
+    grid-template-rows: 120px 200px 350px 50px 250px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tmononoke{grid-area: tmononoke;}
     .LPM-0{grid-area: LPM-0;}
@@ -260,11 +267,12 @@
     "EVDC-16 EVDC-17";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px repeat(2, 340px);
+    grid-template-rows: 120px repeat(2, 110px) 400px 20px 150px 300px 380px 390px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tchihiro{grid-area: tchihiro;}
     .EVDC-8{grid-area: EVDC-8;}
@@ -304,11 +312,12 @@
     "EICV-8 EICV-15";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 600px 180px 350px 30px repeat(2, 120px) repeat(2, 350px);
+    grid-template-rows: 120px 680px 200px 350px 60px repeat(2, 120px) repeat(2, 390px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .thowl{grid-area: thowl;}
     .EICV-4{grid-area: EICV-4;}
@@ -349,11 +358,12 @@
     "P-10 P-14";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 550px 250px 350px 30px 150px 180px 380px 320px;
+    grid-template-rows: 120px 640px 250px 350px 30px 150px 180px 480px 380px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tponyo{grid-area: tponyo;}
     .P-15{grid-area: P-15;}
@@ -376,6 +386,11 @@
         height: 100%;
     }
 
+    .iframe{
+        width: 100%;
+        height: 70%;
+    }
+
     display: grid;
     grid-template-areas:
     "tamapolas tamapolas"
@@ -388,11 +403,12 @@
     "LCDLA-10 LCDLA-12";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 600px 250px 40px 70px 200px repeat(2, 320px);
+    grid-template-rows: 120px 700px 200px 50px 100px 200px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tamapolas{grid-area: tamapolas;}
     .LCDLA-15{grid-area: LCDLA-15;}
@@ -416,6 +432,11 @@
         height: 100%;
     }
 
+    .iframe{
+        width: 100%;
+        height: 70%;
+    }
+
     display: grid;
     grid-template-areas:
     "tviento tviento"
@@ -429,11 +450,12 @@
     "SLEV-9 SLEV-8";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 500px 200px 30px repeat(3, 100px) repeat(2, 330px);
+    grid-template-rows: 120px 700px 200px 30px repeat(3, 100px) repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tviento{grid-area: tviento;}
     .SLEV-12{grid-area: SLEV-12;}
@@ -467,11 +489,12 @@
     "ECYLG-11 ECYLG-13";
 
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: 120px 120px 380px 40px 200px 280px 280px;
+    grid-template-rows: 150px 180px 380px 40px 200px 420px 400px;
     gap: 20px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 50px;
 
     .tchico-garza{grid-area: tchico-garza;}
     .ECYLG-1{grid-area: ECYLG-1;}

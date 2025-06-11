@@ -8,16 +8,16 @@
 
     display: grid;
     grid-template-areas: 
-    "pNDVDV-15 pNDVDV-15 ptnausicaa"
-    "pNDVDV-15 pNDVDV-15 ptxtnausicaa"
-    "pNDVDV-15 pNDVDV-15 pNDVDV-16"
+    "pNDVDV-15 ptnausicaa pNDVDV-16"
+    "pNDVDV-15 ptxtnausicaa pNDVDV-16"
     "pNDVDV-9 pNDVDV-8 pNDVDV-12";
 
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 150px 300px 700px 280px;
+    grid-template-rows: 300px 480px 320px;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 
     .ptnausicaa{grid-area: ptnausicaa;}
     .pNDVDV-15{grid-area: pNDVDV-15;}
@@ -39,14 +39,14 @@
 
     display: grid;
     grid-template-areas:
-    "ptsheeta pECEEC-11 pECEEC-11"
-    "ptxtsheeta pECEEC-11 pECEEC-11"
+    "pECEEC-11 pECEEC-11 ptsheeta"
+    "pECEEC-11 pECEEC-11 ptxtsheeta"
     "pECEEC-19 pECEEC-19 pECEEC-17"
     "pECEEC-19 pECEEC-19 pECEEC-18"
     "pECEEC-19 pECEEC-19 pECEEC-22";
 
-    grid-template-columns: 30% 15% 45%;
-    grid-template-rows: 150px 400px repeat(3, 350px);
+    grid-template-columns: 35% 10% 45%;
+    grid-template-rows: 150px 400px repeat(3, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@
 //personaje-seita
 .personaje-seita{
     img{
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
 
@@ -72,11 +72,11 @@
     grid-template-areas:
     "ptseita pLTDLL-15"
     "ptxtseita pLTDLL-15"
-    "pLTDLL-18 pLTDLL-16"
-    "pLTDLL-19 pLTDLL-17";
+    "pLTDLL-9 pLTDLL-2"
+    "pLTDLL-12 pLTDLL-6";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 200px) repeat(2, 350px);
+    grid-template-rows: 200px 300px 480px 420px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -85,10 +85,10 @@
     .ptseita{grid-area: ptseita;}
     .ptxtseita{grid-area: ptxtseita;}
     .pLTDLL-15{grid-area: pLTDLL-15;}
-    .pLTDLL-18{grid-area: pLTDLL-18;}
-    .pLTDLL-16{grid-area: pLTDLL-16;}
-    .pLTDLL-19{grid-area: pLTDLL-19;}
-    .pLTDLL-17{grid-area: pLTDLL-17;}
+    .pLTDLL-9{grid-area: pLTDLL-9;}
+    .pLTDLL-6{grid-area: pLTDLL-6;}
+    .pLTDLL-12{grid-area: pLTDLL-12;}
+    .pLTDLL-2{grid-area: pLTDLL-2;}
 }
 
 //Setsuko
@@ -102,12 +102,11 @@
     grid-template-areas:
     "ptsetsuko pLTDLL-5"
     "ptxtsetsuko pLTDLL-5"
-    "pLTDLL-16 pLTDLL-18"
     "pLTDLL-16 pLTDLL-19"
     "pLTDLL-16 pLTDLL-17";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 150px) 280px repeat(2, 300px);
+    grid-template-rows: 150px 200px repeat(2, 380px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -117,7 +116,6 @@
     .ptxtsetsuko{grid-area: ptxtsetsuko;}
     .pLTDLL-5{grid-area: pLTDLL-5;}
     .pLTDLL-16{grid-area: pLTDLL-16;}
-    .pLTDLL-18{grid-area: pLTDLL-18;}
     .pLTDLL-19{grid-area: pLTDLL-19;}
     .pLTDLL-17{grid-area: pLTDLL-17;}
 }
@@ -138,7 +136,7 @@
     "pMVT-6 pMVT-16";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 180px repeat(3, 350px);
+    grid-template-rows: 120px 180px repeat(3, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -160,7 +158,7 @@
     }
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(2, 350px);
+    grid-template-rows: 150px 200px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -190,7 +188,7 @@
     "pMVT-5 pMVT-25";
 
     grid-template-columns: repeat(2, 45%) ;
-    grid-template-rows: 150px 200px repeat(3, 350px);
+    grid-template-rows: 150px 220px repeat(3, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -221,7 +219,7 @@
     "pKEAD-20 pKEAD-18";
 
     grid-template-columns: repeat(2, 45%) ;
-    grid-template-rows: 150px 200px repeat(3, 350px);
+    grid-template-rows: 120px 300px repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -249,11 +247,10 @@
     "pLPM-21 ptxtsan"
     "pLPM-7 pLPM-6"
     "pLPM-7 pLPM-19"
-    "pLPM-7 pLPM-23"
-    "pLPM-7 pLPM-20";
+    "pLPM-7 pLPM-23";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 150px) repeat(4, 300px);
+    grid-template-rows: 150px 250px repeat(3, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -266,7 +263,6 @@
     .pLPM-19{grid-area: pLPM-19;}
     .pLPM-23{grid-area: pLPM-23;}
     .pLPM-7{grid-area: pLPM-7;}
-    .pLPM-20{grid-area: pLPM-20;}
 }
 
 //personaje-ashitaka
@@ -284,7 +280,7 @@
     "pLPM-26 pLPM-16";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 150px) repeat(2, 350px);
+    grid-template-rows: repeat(2, 150px) repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -314,7 +310,7 @@
     "pEVDC-14 pEVDC-16";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(2, 330px);
+    grid-template-rows: 150px 250px repeat(2, 420px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -346,7 +342,7 @@
     "pEVDC-22 pEVDC-20";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px repeat(4, 330px);
+    grid-template-rows: 150px 200px repeat(4, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -404,11 +400,10 @@
     "ptxthowl pEICV-38"
     "pEICV-26 pEICV-23"
     "pEICV-26 pEICV-28"
-    "pEICV-26 pEICV-29"
-    "pEICV-40 pEICV-39";
+    "pEICV-26 pEICV-29";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 150px 200px 400px repeat(2, 360px) repeat(2, 1000px);
+    grid-template-rows: 150px 260px 400px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -421,8 +416,6 @@
     .pEICV-26{grid-area: pEICV-26;}
     .pEICV-28{grid-area: pEICV-28;}
     .pEICV-29{grid-area: pEICV-29;}
-    .pEICV-40{grid-area: pEICV-40;}
-    .pEICV-39{grid-area: pEICV-39;}
 }
 
 //personaje-sophie
@@ -442,7 +435,7 @@
     "pEICV-34 pEICV-35";
 
     grid-template-columns: 50% 40%;
-    grid-template-rows: 100px 200px 400px repeat(3, 350px);
+    grid-template-rows: 100px 230px 450px repeat(3, 370px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -473,7 +466,7 @@
     "pEICV-14 pEICV-14 pEICV-17";
 
     grid-template-columns: 30% 25% 35%;
-    grid-template-rows: 110px 230px 340px 400px;
+    grid-template-rows: 110px 240px 360px 450px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -504,7 +497,7 @@
     "pP-32 pP-12";
 
     grid-template-columns: 50% 40%;
-    grid-template-rows: 110px 270px repeat(3, 350px);
+    grid-template-rows: 120px 320px repeat(3, 380px);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -535,7 +528,7 @@
     "pP-9 pP-33";
 
     grid-template-columns: repeat(2, 45%);
-    grid-template-rows: 110px 200px 500px repeat(2, 350px);
+    grid-template-rows: 120px 240px 580px repeat(2, 400px);
     gap: 20px;
     justify-content: center;
     align-items: center;
