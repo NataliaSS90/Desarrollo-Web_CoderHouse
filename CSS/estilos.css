@@ -86,7 +86,7 @@ main p {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 1626px;
+  width: 1600px;
   height: 600px;
 }
 .card-animation .card {
