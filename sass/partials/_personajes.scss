@@ -156,6 +156,13 @@
         width: 100%;
         height: 100%;
     }
+    
+    display: grid;
+    grid-template-areas:
+    "pMVT-19 ptsatsuki"
+    "pMVT-19 ptxtsatsuki"
+    "pMVT-19 pMVT-4"
+    "pMVT-3 pMVT-21";
 
     grid-template-columns: repeat(2, 45%);
     grid-template-rows: 150px 200px repeat(2, 400px);

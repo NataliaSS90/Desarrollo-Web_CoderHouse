@@ -14,18 +14,20 @@ body {
 }
 
 /*header*/
-header .banner {
+.banner {
+  display: flex;
+  justify-content: flex-end;
   background-image: url(../img/carrusel_imagenes/1_bench-cat-clouds-railway-sen-to-chihiro-1244611-wallhere.com.jpg);
   background-size: cover;
   background-position: center;
 }
-header img {
-  width: 350px;
-}
-header nav {
+.banner nav {
   width: 67%;
 }
-header .navbar-nav {
+.banner img {
+  width: 350px;
+}
+.banner .navbar-nav {
   width: 100%;
   list-style: none;
   text-align: right;
@@ -36,13 +38,14 @@ header .navbar-nav {
   height: 90%;
   text-shadow: -7px 8px 12px rgba(0, 0, 0, 0.57);
 }
-header header a {
+.banner .navbar-nav a {
   color: rgb(33, 23, 150);
   text-decoration-line: none;
   font-weight: 600;
 }
 
 /*main*/
+/* font-family: "Bona Nova", serif; */
 main h1, main h2 {
   text-align: center;
   font-style: italic;
@@ -86,8 +89,6 @@ main p {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 1600px;
-  height: 600px;
 }
 .card-animation .card {
   position: relative;
@@ -121,7 +122,7 @@ main p {
   transform: translate(-50%, -50%) rotate(-45deg);
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background-color: #fff;
   opacity: 0;
@@ -978,6 +979,8 @@ img {
 }
 
 .personaje-satsuki {
+  display: grid;
+  grid-template-areas: "pMVT-19 ptsatsuki" "pMVT-19 ptxtsatsuki" "pMVT-19 pMVT-4" "pMVT-3 pMVT-21";
   grid-template-columns: repeat(2, 45%);
   grid-template-rows: 150px 200px repeat(2, 400px);
   gap: 20px;
@@ -1447,19 +1450,20 @@ img {
 }
 
 /* main arte y animación */
-.aya {
-  display: grid;
-  grid-template-areas: "aya-1 aya-2 aya-3" "aya-4 aya-5 aya-6" "aya-7 aya-8 aya-9" "aya-10 aya-11 aya-12" "aya-13 aya-14 aya-15" "aya-16 aya-17 aya-18" "aya-19 aya-20 aya-21";
-  gap: 20px;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-}
-.aya .v1aya {
+.v1aya {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   margin: 50px 0px;
+}
+
+.aya {
+  display: grid;
+  grid-template-areas: "aya-1 aya-2 aya-3" "aya-4 aya-5 aya-6" "aya-7 aya-8 aya-9" "aya-10 aya-11 aya-12" "aya-13 aya-14 aya-15" "aya-16 aya-17 aya-18" "aya-20 aya-19 aya-21";
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 .aya img {
   width: 100%;
@@ -1569,42 +1573,486 @@ img {
   height: 100px;
 }
 
-/* index */
-/* video introductorio */
-/*Carrusel de imágenes*/
+/* mediaQs */
+@media screen and (max-width: 500px) {
+  /*main*/
+  p {
+    padding: 5px;
+  }
+  /*index*/
+  .arquitectura-emocional iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .card-animation {
+    flex-direction: column;
+  }
+  /*películas*/
+  .nausicaa {
+    display: flex;
+    flex-direction: column;
+  }
+  .nausicaa img {
+    width: 90%;
+    height: 300px;
+  }
+  .nausicaa iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .castillo-cielo {
+    display: flex;
+    flex-direction: column;
+  }
+  .castillo-cielo img {
+    width: 90%;
+    height: 280px;
+  }
+  .castillo-cielo iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .luciernagas {
+    display: flex;
+    flex-direction: column;
+  }
+  .luciernagas .LTDLL-1 {
+    height: 500px;
+  }
+  .luciernagas .LTDLL-10 {
+    height: 550px;
+  }
+  .luciernagas img {
+    width: 90%;
+    height: 280px;
+  }
+  .luciernagas iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .totoro {
+    display: flex;
+    flex-direction: column;
+  }
+  .totoro .MVT-7 {
+    height: 700px;
+  }
+  .totoro img {
+    width: 90%;
+    height: 230px;
+  }
+  .totoro iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .kiki {
+    display: flex;
+    flex-direction: column;
+  }
+  .kiki img {
+    width: 90%;
+    height: 220px;
+  }
+  .kiki iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .mononoke {
+    display: flex;
+    flex-direction: column;
+  }
+  .mononoke .LPM-0 {
+    height: 500px;
+  }
+  .mononoke .LPM-12 {
+    height: 700px;
+  }
+  .mononoke img {
+    width: 90%;
+    height: 220px;
+  }
+  .mononoke iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .chihiro {
+    display: flex;
+    flex-direction: column;
+  }
+  .chihiro .EVDC-8 {
+    height: 600px;
+  }
+  .chihiro img {
+    width: 90%;
+    height: 220px;
+  }
+  .chihiro iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .howl {
+    display: flex;
+    flex-direction: column;
+  }
+  .howl .EICV-2 {
+    height: 600px;
+  }
+  .howl img {
+    width: 90%;
+    height: 220px;
+  }
+  .howl iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .ponyo {
+    display: flex;
+    flex-direction: column;
+  }
+  .ponyo .P-16 {
+    height: 600px;
+  }
+  .ponyo .P-17 {
+    height: 320px;
+  }
+  .ponyo .P-13 {
+    height: 320px;
+  }
+  .ponyo img {
+    width: 90%;
+    height: 240px;
+  }
+  .ponyo iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .amapolas {
+    display: flex;
+    flex-direction: column;
+  }
+  .amapolas .LCDLA-10 {
+    height: 500px;
+  }
+  .amapolas img {
+    width: 90%;
+    height: 220px;
+  }
+  .amapolas iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .viento {
+    display: flex;
+    flex-direction: column;
+  }
+  .viento img {
+    width: 90%;
+    height: 220px;
+  }
+  .viento iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .chico-garza {
+    display: flex;
+    flex-direction: column;
+  }
+  .chico-garza .ECYLG-1 {
+    height: 500px;
+  }
+  .chico-garza .ECYLG-13 {
+    height: 500px;
+  }
+  .chico-garza img {
+    width: 90%;
+    height: 220px;
+  }
+  .chico-garza iframe {
+    height: 300px;
+    width: 90%;
+  }
+  /*personajes*/
+  .personaje-nausicaa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-nausicaa .pNDVDV-15 {
+    height: 600px;
+  }
+  .personaje-nausicaa .pNDVDV-16 {
+    height: 600px;
+  }
+  .personaje-nausicaa img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-sheeta {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sheeta .pECEEC-19 {
+    height: 500px;
+  }
+  .personaje-sheeta img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-seita {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-seita .pLTDLL-15 {
+    height: 350px;
+  }
+  .personaje-seita .pLTDLL-9 {
+    height: 400px;
+  }
+  .personaje-seita img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-setsuko {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-setsuko .pLTDLL-16 {
+    height: 480px;
+  }
+  .personaje-setsuko img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-totoro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-totoro .pMVT-6 {
+    height: 600px;
+  }
+  .personaje-totoro img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-satsuki {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-satsuki .pMVT-19 {
+    height: 400px;
+  }
+  .personaje-satsuki img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-mei {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-mei .pMVT-26 {
+    height: 400px;
+  }
+  .personaje-mei img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-kiki {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-kiki img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-san {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-san .pLPM-7 {
+    height: 500px;
+  }
+  .personaje-san img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-ashitaka {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-ashitaka .pLPM-28 {
+    height: 400px;
+  }
+  .personaje-ashitaka img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-sinCara {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sinCara img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-chihiro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-chihiro .pEVDC-0 {
+    height: 400px;
+  }
+  .personaje-chihiro .pEVDC-22 {
+    height: 600px;
+  }
+  .personaje-chihiro img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-haku {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-haku .pEVDC-26 {
+    height: 400px;
+  }
+  .personaje-haku img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-howl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-howl .pEICV-26 {
+    height: 600px;
+  }
+  .personaje-howl img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-sophie {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sophie .pEICV-41 {
+    height: 400px;
+  }
+  .personaje-sophie .pEICV-34 {
+    height: 500px;
+  }
+  .personaje-sophie img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-calcifer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-calcifer .pEICV-15 {
+    height: 350px;
+  }
+  .personaje-calcifer .pEICV-14 {
+    height: 350px;
+  }
+  .personaje-calcifer .pEICV-17 {
+    height: 400px;
+  }
+  .personaje-calcifer img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-ponyo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-ponyo .pP-32 {
+    height: 400px;
+  }
+  .personaje-ponyo img {
+    width: 90%;
+    height: 220px;
+  }
+  .personaje-sosuke {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sosuke .pP-29 {
+    height: 350px;
+  }
+  .personaje-sosuke .pP-33 {
+    height: 350px;
+  }
+  .personaje-sosuke .pP-30 {
+    height: 550px;
+  }
+  .personaje-sosuke img {
+    width: 90%;
+    height: 220px;
+  }
+  /*arte y animación*/
+  .v1aya {
+    height: 300px;
+    width: 90%;
+  }
+  .aya {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .aya img {
+    width: 90%;
+    height: 300px;
+  }
+  /*soundtrack*/
+  .vjh {
+    height: 300px;
+    width: 90%;
+  }
+  .listado-bso {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 1200px) {
   .wrapper {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: auto;
   }
-}
-
-@media screen and (min-width: 1200px) {
   .gallery {
     display: block;
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
   }
-}
-
-@media screen and (min-width: 1200px) {
   .gallery__img {
     min-width: auto;
     min-height: 100vh;
   }
-}
-
-@media screen and (min-width: 1200px) {
   .lil-nav {
     overflow-y: scroll;
     overflow-x: hidden;
     display: block;
     grid-row-start: auto;
   }
-}
-@media screen and (min-width: 1200px) {
-  .lil-nav a {
+  a {
     margin-bottom: 10px;
     min-height: 200px;
     min-width: 100%;
