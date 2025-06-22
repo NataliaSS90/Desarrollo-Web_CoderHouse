@@ -24,10 +24,10 @@ body {
 .banner nav {
   width: 67%;
 }
-.banner img {
+.banner nav img {
   width: 350px;
 }
-.banner .navbar-nav {
+.banner nav .navbar-nav {
   width: 100%;
   list-style: none;
   text-align: right;
@@ -38,7 +38,7 @@ body {
   height: 90%;
   text-shadow: -7px 8px 12px rgba(0, 0, 0, 0.57);
 }
-.banner .navbar-nav a {
+.banner nav .navbar-nav a {
   color: rgb(33, 23, 150);
   text-decoration-line: none;
   font-weight: 600;
@@ -1567,13 +1567,465 @@ img {
   margin-bottom: 30px;
   font-weight: 600;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #14a6dc;
   height: 100px;
 }
 
 /* mediaQs */
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .arquitectura-emocional iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .card-animation {
+    flex-direction: column;
+  }
+  /*películas*/
+  .nausicaa {
+    display: flex;
+    flex-direction: column;
+  }
+  .nausicaa img {
+    width: 90%;
+    height: 500px;
+  }
+  .nausicaa iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .castillo-cielo {
+    display: flex;
+    flex-direction: column;
+  }
+  .castillo-cielo img {
+    width: 90%;
+    height: 380px;
+  }
+  .castillo-cielo iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .luciernagas {
+    display: flex;
+    flex-direction: column;
+  }
+  .luciernagas .LTDLL-1 {
+    height: 1000px;
+  }
+  .luciernagas .LTDLL-10 {
+    height: 1000px;
+  }
+  .luciernagas img {
+    width: 90%;
+    height: 400px;
+  }
+  .luciernagas iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .totoro {
+    display: flex;
+    flex-direction: column;
+  }
+  .totoro .MVT-7 {
+    height: 1200px;
+  }
+  .totoro img {
+    width: 90%;
+    height: 400px;
+  }
+  .totoro iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .kiki {
+    display: flex;
+    flex-direction: column;
+  }
+  .kiki img {
+    width: 90%;
+    height: 380px;
+  }
+  .kiki iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .mononoke {
+    display: flex;
+    flex-direction: column;
+  }
+  .mononoke .LPM-0 {
+    height: 800px;
+  }
+  .mononoke .LPM-12 {
+    height: 1000px;
+  }
+  .mononoke img {
+    width: 90%;
+    height: 380px;
+  }
+  .mononoke iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .chihiro {
+    display: flex;
+    flex-direction: column;
+  }
+  .chihiro .EVDC-8 {
+    height: 1200px;
+  }
+  .chihiro img {
+    width: 90%;
+    height: 380px;
+  }
+  .chihiro iframe {
+    height: 350px;
+    width: 90%;
+  }
+  .howl {
+    display: flex;
+    flex-direction: column;
+  }
+  .howl .EICV-2 {
+    height: 1200px;
+  }
+  .howl img {
+    width: 90%;
+    height: 380px;
+  }
+  .howl iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .ponyo {
+    display: flex;
+    flex-direction: column;
+  }
+  .ponyo .P-16 {
+    height: 1000px;
+  }
+  .ponyo .P-17 {
+    height: 500px;
+  }
+  .ponyo .P-13 {
+    height: 500px;
+  }
+  .ponyo img {
+    width: 90%;
+    height: 380px;
+  }
+  .ponyo iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .amapolas {
+    display: flex;
+    flex-direction: column;
+  }
+  .amapolas .LCDLA-10 {
+    height: 850px;
+  }
+  .amapolas img {
+    width: 90%;
+    height: 380px;
+  }
+  .amapolas iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .viento {
+    display: flex;
+    flex-direction: column;
+  }
+  .viento img {
+    width: 90%;
+    height: 400px;
+  }
+  .viento iframe {
+    height: 300px;
+    width: 90%;
+  }
+  .chico-garza {
+    display: flex;
+    flex-direction: column;
+  }
+  .chico-garza .ECYLG-1 {
+    height: 1000px;
+  }
+  .chico-garza .ECYLG-13 {
+    height: 1000px;
+  }
+  .chico-garza img {
+    width: 90%;
+    height: 380px;
+  }
+  .chico-garza iframe {
+    height: 300px;
+    width: 90%;
+  }
+  /*personajes*/
+  .personaje-nausicaa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-nausicaa .pNDVDV-15 {
+    height: 1000px;
+  }
+  .personaje-nausicaa .pNDVDV-16 {
+    height: 1000px;
+  }
+  .personaje-nausicaa img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-sheeta {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sheeta .pECEEC-19 {
+    height: 1000px;
+  }
+  .personaje-sheeta img {
+    width: 90%;
+    height: 400px;
+  }
+  .personaje-seita {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-seita .pLTDLL-15 {
+    height: 600px;
+  }
+  .personaje-seita .pLTDLL-9 {
+    height: 700px;
+  }
+  .personaje-seita img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-setsuko {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-setsuko .pLTDLL-16 {
+    height: 850px;
+  }
+  .personaje-setsuko img {
+    width: 90%;
+    height: 400px;
+  }
+  .personaje-totoro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-totoro .pMVT-6 {
+    height: 1000px;
+  }
+  .personaje-totoro img {
+    width: 90%;
+    height: 400px;
+  }
+  .personaje-satsuki {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-satsuki .pMVT-19 {
+    height: 700px;
+  }
+  .personaje-satsuki img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-mei {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-mei .pMVT-26 {
+    height: 700px;
+  }
+  .personaje-mei img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-kiki {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-kiki img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-san {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-san .pLPM-7 {
+    height: 1000px;
+  }
+  .personaje-san img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-ashitaka {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-ashitaka .pLPM-28 {
+    height: 700px;
+  }
+  .personaje-ashitaka img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-sinCara {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sinCara img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-chihiro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-chihiro .pEVDC-0 {
+    height: 650px;
+  }
+  .personaje-chihiro .pEVDC-22 {
+    height: 1000px;
+  }
+  .personaje-chihiro img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-haku {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-haku .pEVDC-26 {
+    height: 650px;
+  }
+  .personaje-haku img {
+    width: 90%;
+    height: 400px;
+  }
+  .personaje-howl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-howl .pEICV-26 {
+    height: 1000px;
+  }
+  .personaje-howl img {
+    width: 90%;
+    height: 400px;
+  }
+  .personaje-sophie {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sophie .pEICV-41 {
+    height: 800px;
+  }
+  .personaje-sophie .pEICV-34 {
+    height: 900px;
+  }
+  .personaje-sophie img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-calcifer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-calcifer .pEICV-15 {
+    height: 550px;
+  }
+  .personaje-calcifer .pEICV-14 {
+    height: 650px;
+  }
+  .personaje-calcifer .pEICV-17 {
+    height: 700px;
+  }
+  .personaje-calcifer img {
+    width: 90%;
+    height: 380px;
+  }
+  .personaje-ponyo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-ponyo .pP-32 {
+    height: 800px;
+  }
+  .personaje-ponyo img {
+    width: 90%;
+    height: 400px;
+  }
+  .personaje-sosuke {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .personaje-sosuke .pP-29 {
+    height: 550px;
+  }
+  .personaje-sosuke .pP-33 {
+    height: 550px;
+  }
+  .personaje-sosuke .pP-30 {
+    height: 1000px;
+  }
+  .personaje-sosuke img {
+    width: 90%;
+    height: 380px;
+  }
+  /*arte y animación*/
+  .v1aya {
+    height: 300px;
+    width: 90%;
+  }
+  .aya {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .aya img {
+    width: 90%;
+    height: 500px;
+  }
+  /*soundtrack*/
+  .vjh {
+    height: 300px;
+    width: 90%;
+  }
+  .listado-bso {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 500px) {
   /*main*/
   p {
